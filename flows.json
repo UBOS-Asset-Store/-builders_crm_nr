@@ -1377,7 +1377,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 290,
         "y": 80,
         "wires": [
             []
@@ -1423,7 +1423,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 300,
         "y": 140,
         "wires": [
             []
