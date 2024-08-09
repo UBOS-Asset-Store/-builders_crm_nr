@@ -185,8 +185,10 @@
             "c1c36f3949756248",
             "306adf550fae80e8"
         ],
-        "x": 54,
-        "y": 859
+        "x": 34,
+        "y": 679,
+        "w": 672,
+        "h": 862
     },
     {
         "id": "a8bcf74ef7690d27",
@@ -233,8 +235,10 @@
             "ae293692fead8475",
             "732470b6749e6a6e"
         ],
-        "x": 814,
-        "y": 859
+        "x": 774,
+        "y": 679,
+        "w": 792,
+        "h": 882
     },
     {
         "id": "dd0a2b2a3a923ff7",
@@ -264,8 +268,10 @@
             "23e04e8b3f4f3a6b",
             "784130e27331077d"
         ],
-        "x": 54,
-        "y": 1759
+        "x": 34,
+        "y": 1619,
+        "w": 1162,
+        "h": 322
     },
     {
         "id": "9005e0b501e3898f",
@@ -333,7 +339,9 @@
             "32903bbff5891ba6"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 3252,
+        "h": 722
     },
     {
         "id": "f49c4844a8fd418b",
@@ -368,10 +376,13 @@
             "3a8b64a602016860",
             "39af801020f87f81",
             "22b08a1354cd7157",
-            "3ec27d1aa2132072"
+            "3ec27d1aa2132072",
+            "ffdbe8cb5092514f"
         ],
-        "x": 24,
-        "y": 19
+        "x": 34,
+        "y": 19,
+        "w": 1672,
+        "h": 322
     },
     {
         "id": "f6ba04031958c468",
@@ -399,13 +410,15 @@
             "a705a5326fe59cd7"
         ],
         "x": 54,
-        "y": 19
+        "y": 19,
+        "w": 1052,
+        "h": 182
     },
     {
         "id": "629b12ad2c8a2432",
         "type": "group",
         "z": "c740254358c79788",
-        "name": "копіювання коллекцій з тестової в прод",
+        "name": "copying collections from the test to the prod",
         "style": {
             "fill": "#dbcbe7",
             "label": true
@@ -420,13 +433,15 @@
             "9bb4420db5057482"
         ],
         "x": 34,
-        "y": 879
+        "y": 799,
+        "w": 832,
+        "h": 162
     },
     {
         "id": "49efeb2f042463b1",
         "type": "group",
         "z": "c740254358c79788",
-        "name": "шрифти",
+        "name": "fonts",
         "style": {
             "fill": "#e3f3d3",
             "label": true
@@ -441,13 +456,15 @@
             "a892adf233912587"
         ],
         "x": 34,
-        "y": 559
+        "y": 579,
+        "w": 652,
+        "h": 162
     },
     {
         "id": "0c12ce383a397a7d",
         "type": "group",
         "z": "c740254358c79788",
-        "name": "линкинг",
+        "name": "linking",
         "style": {
             "fill": "#bfc7d7",
             "label": true
@@ -467,13 +484,15 @@
             "84c75bed55ab1dd8"
         ],
         "x": 34,
-        "y": 179
+        "y": 159,
+        "w": 352,
+        "h": 362
     },
     {
         "id": "b0ef14992c694846",
         "type": "group",
         "z": "c740254358c79788",
-        "name": "стилі",
+        "name": "styles",
         "style": {
             "fill": "#ffffbf",
             "label": true
@@ -484,7 +503,9 @@
             "4dbc400d7c9ea753"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 472,
+        "h": 82
     },
     {
         "id": "59374a27ad18d0ed",
@@ -515,7 +536,9 @@
             "a86b4cb2c331997f"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 792,
+        "h": 362
     },
     {
         "id": "59348ed242f896b4",
@@ -555,7 +578,9 @@
             "ee68aea7e306bb48"
         ],
         "x": 14,
-        "y": 59
+        "y": 59,
+        "w": 1052,
+        "h": 382
     },
     {
         "id": "a7c23722d7220194",
@@ -577,7 +602,9 @@
             "efb60abb1100f980"
         ],
         "x": 54,
-        "y": 99
+        "y": 99,
+        "w": 812,
+        "h": 142
     },
     {
         "id": "af30c153e4a2f931",
@@ -620,10 +647,13 @@
             "43ce92f8a2d68c14",
             "d6df89ac8abd270d",
             "7b804d228b0b44da",
-            "4c93b07221cdbc2c"
+            "4c93b07221cdbc2c",
+            "851d1cb1e3bb753f"
         ],
         "x": 54,
-        "y": 19
+        "y": 19,
+        "w": 1952,
+        "h": 382
     },
     {
         "id": "27c22d2d957ff945",
@@ -677,7 +707,9 @@
             "e39cd6d6fa11d3f0"
         ],
         "x": 54,
-        "y": 959
+        "y": 959,
+        "w": 2012,
+        "h": 422
     },
     {
         "id": "989e4177d031381d",
@@ -707,7 +739,9 @@
             "0a55ba32b5e920b2"
         ],
         "x": 54,
-        "y": 659
+        "y": 659,
+        "w": 872,
+        "h": 262
     },
     {
         "id": "20afcaf136d6dde7",
@@ -731,7 +765,9 @@
             "f9eb5e7b5755354f"
         ],
         "x": 54,
-        "y": 459
+        "y": 459,
+        "w": 1012,
+        "h": 142
     },
     {
         "id": "a7efc7ad66cb4641",
@@ -762,7 +798,9 @@
             "13c428ce28cf8aab"
         ],
         "x": 54,
-        "y": 1399
+        "y": 1399,
+        "w": 992,
+        "h": 262
     },
     {
         "id": "f490d1a0e639dbca",
@@ -786,7 +824,9 @@
             "611477050d6b691b"
         ],
         "x": 54,
-        "y": 779
+        "y": 779,
+        "w": 952,
+        "h": 222
     },
     {
         "id": "b63354a505b04f2a",
@@ -841,7 +881,9 @@
             "8a34ce1a4615020c"
         ],
         "x": 24,
-        "y": 39
+        "y": 39,
+        "w": 2132,
+        "h": 422
     },
     {
         "id": "dc482170debe4996",
@@ -866,7 +908,9 @@
             "9d86890e0d68202a"
         ],
         "x": 54,
-        "y": 1039
+        "y": 1039,
+        "w": 1052,
+        "h": 122
     },
     {
         "id": "acc26a2de722bcc9",
@@ -895,7 +939,9 @@
             "a5d4c55657c115d1"
         ],
         "x": 14,
-        "y": 799
+        "y": 799,
+        "w": 1112,
+        "h": 302
     },
     {
         "id": "0bed0c28c4bac75e",
@@ -941,7 +987,9 @@
             "e9f6f901262137a7"
         ],
         "x": 54,
-        "y": 219
+        "y": 219,
+        "w": 2398,
+        "h": 542
     },
     {
         "id": "1b6ca111575aced8",
@@ -972,7 +1020,9 @@
             "bbe16133a378f5e5"
         ],
         "x": 54,
-        "y": 1679
+        "y": 1679,
+        "w": 1272,
+        "h": 203.125
     },
     {
         "id": "3767b80692da44bf",
@@ -1009,7 +1059,9 @@
             "ec2b4ac2259bbd8d"
         ],
         "x": 2194,
-        "y": 39
+        "y": 39,
+        "w": 1392,
+        "h": 282
     },
     {
         "id": "735e9617b665865a",
@@ -1029,7 +1081,9 @@
             "3ace07a31bb9c912"
         ],
         "x": 2194,
-        "y": 379
+        "y": 379,
+        "w": 992,
+        "h": 82
     },
     {
         "id": "8674d609260a3fc0",
@@ -1097,7 +1151,9 @@
             "0e9b686fe28cda64"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 1512,
+        "h": 742
     },
     {
         "id": "d78377c07a215120",
@@ -1126,7 +1182,9 @@
             "0b6ff6d92b1de7e7"
         ],
         "x": 34,
-        "y": 539
+        "y": 399,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "4b6589c667fa1af4",
@@ -1163,7 +1221,9 @@
             "460ff8aec99f0138"
         ],
         "x": 34,
-        "y": 1239
+        "y": 1239,
+        "w": 1252,
+        "h": 222
     },
     {
         "id": "89c8ac8cfeb7384d",
@@ -1199,7 +1259,9 @@
             "09bc51a558ca4e8f"
         ],
         "x": 1574,
-        "y": 479
+        "y": 479,
+        "w": 1312,
+        "h": 322
     },
     {
         "id": "bf1873d6733e8bc7",
@@ -1223,8 +1285,10 @@
             "03e28db711080d9d",
             "01b3a72edd22ed84"
         ],
-        "x": 1134,
-        "y": 479
+        "x": 1144,
+        "y": 479,
+        "w": 1282,
+        "h": 182
     },
     {
         "id": "40e92400c5b4fa25",
@@ -1283,8 +1347,9 @@
         "type": "function",
         "z": "9ffc66369df29712",
         "name": "template structure",
-        "func": "\nmsg.payload = [\n    {\n        \"key\": objectid(),\n        \"name\": \"Тип контрагенту: Замовник\",\n        \"type\": \"\",\n        \"isAction\": true,\n        \"children\": []\n    },\n    {\n        \"key\": objectid(),\n        \"name\": \"Тип контрагенту: Підрядник\",\n        \"isAction\": true,\n        \"children\": []\n    },\n]\n\nreturn msg;",
+        "func": "msg.payload = [\n    {\n        \"key\": objectid(),\n        \"name\": \"Counterparty Type: Customer\",\n        \"type\": \"\",\n        \"isAction\": true,\n        \"children\": []\n    },\n    {\n        \"key\": objectid(),\n        \"name\": \"Counterparty Type: Contractor\",\n        \"isAction\": true,\n        \"children\": []\n    },\n]\n\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1305,8 +1370,9 @@
         "type": "function",
         "z": "20c53500e7b814e0",
         "name": "env",
-        "func": "let process_env = {\n    CLIENTID:'663345603096-k5d1496bo81989aaflpi38e0trkmqdpa',\n    CLIENTSECRET:'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',\n    REDIRECTURL:'https://www.visia-terra.pro/LogInGoogle',\n    EMAIL:'fen9206@gmail.com',\n    EMAILPASSWORD:'bmup ghpu gnqx king'\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;\n\n\n",
+        "func": "let process_env = {\n    // CLIENTID and CLIENTSECRET\n    // These credentials are typically obtained from the Google Cloud Console when creating an OAuth2 client.\n    \n    CLIENTID:'', // Client ID\n    CLIENTSECRET:'', // Client Secret\n    EMAIL:'', // Email\n    EMAILPASSWORD:'' // Email Password\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;\n\n\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1357,7 +1423,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
+        "x": 360,
         "y": 140,
         "wires": [
             []
@@ -1400,7 +1466,7 @@
         "name": "mongo Find",
         "links": [],
         "x": 75,
-        "y": 220,
+        "y": 200,
         "wires": [
             [
                 "a902fac8c21085e6"
@@ -1415,7 +1481,7 @@
         "name": "mongo Aggregate",
         "links": [],
         "x": 75,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "84c75bed55ab1dd8"
@@ -1430,7 +1496,7 @@
         "name": "mongo Insert",
         "links": [],
         "x": 85,
-        "y": 400,
+        "y": 380,
         "wires": [
             [
                 "7739c6ef4683fa04",
@@ -1446,7 +1512,7 @@
         "name": "mongo Update",
         "links": [],
         "x": 85,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "5accd99f247f88ec",
@@ -1463,7 +1529,7 @@
         "mode": "return",
         "links": [],
         "x": 335,
-        "y": 220,
+        "y": 200,
         "wires": []
     },
     {
@@ -1475,7 +1541,7 @@
         "mode": "return",
         "links": [],
         "x": 345,
-        "y": 280,
+        "y": 260,
         "wires": []
     },
     {
@@ -1487,7 +1553,7 @@
         "mode": "return",
         "links": [],
         "x": 235,
-        "y": 360,
+        "y": 340,
         "wires": []
     },
     {
@@ -1499,74 +1565,8 @@
         "mode": "return",
         "links": [],
         "x": 235,
-        "y": 500,
+        "y": 480,
         "wires": []
-    },
-    {
-        "id": "7ce3e0949b4a483f",
-        "type": "mongodb out",
-        "z": "c740254358c79788",
-        "g": "0c12ce383a397a7d",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 270,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "6a3c98d4b6b016de",
-        "type": "mongodb out",
-        "z": "c740254358c79788",
-        "g": "0c12ce383a397a7d",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "update",
-        "x": 270,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "a902fac8c21085e6",
-        "type": "mongodb in",
-        "z": "c740254358c79788",
-        "g": "0c12ce383a397a7d",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "operation": "find",
-        "x": 230,
-        "y": 220,
-        "wires": [
-            [
-                "4307ecabcc6486c7"
-            ]
-        ]
-    },
-    {
-        "id": "84c75bed55ab1dd8",
-        "type": "mongodb in",
-        "z": "c740254358c79788",
-        "g": "0c12ce383a397a7d",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "operation": "aggregate",
-        "x": 230,
-        "y": 280,
-        "wires": [
-            [
-                "6544322b922c1a49"
-            ]
-        ]
     },
     {
         "id": "76fd70890eb5f7a6",
@@ -1581,7 +1581,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 720,
+        "y": 700,
         "wires": [
             [
                 "fa0b651230faaafa"
@@ -1601,7 +1601,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 500,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "21ed0e58f6517192"
@@ -1631,7 +1631,7 @@
         "upload": true,
         "swaggerDoc": "",
         "x": 120,
-        "y": 720,
+        "y": 700,
         "wires": [
             [
                 "76fd70890eb5f7a6"
@@ -1651,8 +1651,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 520,
-        "y": 720,
+        "x": 500,
+        "y": 700,
         "wires": [
             [
                 "21ed0e58f6517192"
@@ -1672,7 +1672,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "95a1c44caead784a"
@@ -1690,7 +1690,7 @@
         "upload": true,
         "swaggerDoc": "",
         "x": 130,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "d8c409caa9de242c"
@@ -1752,7 +1752,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 140,
-        "y": 920,
+        "y": 840,
         "wires": [
             [
                 "2c69511896561dd6"
@@ -1771,8 +1771,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 920,
+        "x": 290,
+        "y": 840,
         "wires": [
             []
         ]
@@ -1789,29 +1789,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 920,
+        "x": 630,
+        "y": 840,
         "wires": [
             [
                 "7f534143e33ec6de"
             ]
         ]
-    },
-    {
-        "id": "7f534143e33ec6de",
-        "type": "mongodb out",
-        "z": "c740254358c79788",
-        "g": "629b12ad2c8a2432",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 820,
-        "y": 920,
-        "wires": []
     },
     {
         "id": "c59aa6803771969a",
@@ -1835,8 +1819,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 1060,
+        "x": 140,
+        "y": 920,
         "wires": [
             [
                 "6cdc23a401c563cf"
@@ -1855,27 +1839,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 1060,
+        "x": 290,
+        "y": 920,
         "wires": [
             [
                 "9bb4420db5057482"
             ]
-        ]
-    },
-    {
-        "id": "9bb4420db5057482",
-        "type": "mongodb in",
-        "z": "c740254358c79788",
-        "g": "629b12ad2c8a2432",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "operation": "find",
-        "x": 520,
-        "y": 1060,
-        "wires": [
-            []
         ]
     },
     {
@@ -1899,6 +1868,103 @@
         ]
     },
     {
+        "id": "7ce3e0949b4a483f",
+        "type": "mongodb out",
+        "z": "c740254358c79788",
+        "g": "0c12ce383a397a7d",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 270,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6a3c98d4b6b016de",
+        "type": "mongodb out",
+        "z": "c740254358c79788",
+        "g": "0c12ce383a397a7d",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "update",
+        "x": 270,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7f534143e33ec6de",
+        "type": "mongodb out",
+        "z": "c740254358c79788",
+        "g": "629b12ad2c8a2432",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 780,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "a902fac8c21085e6",
+        "type": "mongodb in",
+        "z": "c740254358c79788",
+        "g": "0c12ce383a397a7d",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "operation": "find",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "4307ecabcc6486c7"
+            ]
+        ]
+    },
+    {
+        "id": "84c75bed55ab1dd8",
+        "type": "mongodb in",
+        "z": "c740254358c79788",
+        "g": "0c12ce383a397a7d",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "operation": "aggregate",
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "6544322b922c1a49"
+            ]
+        ]
+    },
+    {
+        "id": "9bb4420db5057482",
+        "type": "mongodb in",
+        "z": "c740254358c79788",
+        "g": "629b12ad2c8a2432",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "operation": "find",
+        "x": 440,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "04ab9e97bf9e23e7",
         "type": "function",
         "z": "c8b39bad946d8ab6",
@@ -1910,8 +1976,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 1120,
+        "x": 280,
+        "y": 940,
         "wires": [
             [
                 "561598685195f480",
@@ -1929,8 +1995,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 1120,
+        "x": 120,
+        "y": 940,
         "wires": [
             [
                 "04ab9e97bf9e23e7"
@@ -1946,8 +2012,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 450,
-        "y": 1140,
+        "x": 430,
+        "y": 960,
         "wires": []
     },
     {
@@ -1960,8 +2026,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 900,
+        "x": 120,
+        "y": 720,
         "wires": [
             [
                 "68b716a28a9c06f9"
@@ -1976,8 +2042,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 630,
-        "y": 900,
+        "x": 610,
+        "y": 720,
         "wires": []
     },
     {
@@ -1990,8 +2056,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
-        "y": 1260,
+        "x": 150,
+        "y": 1080,
         "wires": [
             [
                 "d9487f0690457157"
@@ -2007,8 +2073,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 510,
-        "y": 1280,
+        "x": 490,
+        "y": 1100,
         "wires": []
     },
     {
@@ -2028,8 +2094,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 360,
-        "y": 1260,
+        "x": 340,
+        "y": 1080,
         "wires": [
             [
                 "b0766e91bd6c6a00",
@@ -2048,8 +2114,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 470,
-        "y": 1100,
+        "x": 450,
+        "y": 920,
         "wires": [
             []
         ]
@@ -2066,8 +2132,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 900,
+        "x": 280,
+        "y": 720,
         "wires": [
             [
                 "31c23a05e29832de"
@@ -2085,8 +2151,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 470,
-        "y": 900,
+        "x": 450,
+        "y": 720,
         "wires": [
             [
                 "fe134326442270d0"
@@ -2104,8 +2170,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 560,
-        "y": 1240,
+        "x": 540,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -2127,8 +2193,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 320,
-        "y": 1380,
+        "x": 300,
+        "y": 1200,
         "wires": [
             [
                 "69547a71e13702ba",
@@ -2146,8 +2212,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 1380,
+        "x": 130,
+        "y": 1200,
         "wires": [
             [
                 "e7c108f3663fd09c"
@@ -2166,8 +2232,8 @@
         ],
         "linkType": "static",
         "timeout": "10",
-        "x": 520,
-        "y": 1360,
+        "x": 500,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -2180,8 +2246,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 470,
-        "y": 1400,
+        "x": 450,
+        "y": 1220,
         "wires": []
     },
     {
@@ -2194,8 +2260,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 180,
-        "y": 1640,
+        "x": 160,
+        "y": 1460,
         "wires": [
             [
                 "1abe7468edf9c502"
@@ -2220,8 +2286,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 380,
-        "y": 1640,
+        "x": 360,
+        "y": 1460,
         "wires": [
             [
                 "3baac374b1dd3f4d",
@@ -2240,8 +2306,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 580,
-        "y": 1680,
+        "x": 560,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -2256,8 +2322,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 1500,
+        "x": 120,
+        "y": 1320,
         "wires": [
             [
                 "3594cb050006f93b"
@@ -2282,8 +2348,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 300,
-        "y": 1500,
+        "x": 280,
+        "y": 1320,
         "wires": [
             [
                 "d223f3d36f46a91d",
@@ -2299,8 +2365,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 450,
-        "y": 1520,
+        "x": 430,
+        "y": 1340,
         "wires": []
     },
     {
@@ -2314,8 +2380,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 500,
-        "y": 1480,
+        "x": 480,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -2328,8 +2394,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 530,
-        "y": 1640,
+        "x": 510,
+        "y": 1460,
         "wires": []
     },
     {
@@ -2344,8 +2410,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1020,
+        "x": 300,
+        "y": 840,
         "wires": [
             [
                 "b26cafe18475e3cb"
@@ -2363,8 +2429,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 490,
-        "y": 1020,
+        "x": 470,
+        "y": 840,
         "wires": [
             [
                 "c1c36f3949756248"
@@ -2379,8 +2445,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 650,
-        "y": 1020,
+        "x": 630,
+        "y": 840,
         "wires": []
     },
     {
@@ -2393,8 +2459,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 1020,
+        "x": 130,
+        "y": 840,
         "wires": [
             [
                 "110f980283b587bc"
@@ -2412,8 +2478,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 930,
-        "y": 1020,
+        "x": 890,
+        "y": 840,
         "wires": [
             [
                 "8e90850289063c0f"
@@ -2429,8 +2495,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1310,
-        "y": 980,
+        "x": 1270,
+        "y": 800,
         "wires": []
     },
     {
@@ -2445,8 +2511,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1160,
-        "y": 1020,
+        "x": 1120,
+        "y": 840,
         "wires": [
             [
                 "5cbf5ba2c4c74a4f",
@@ -2464,8 +2530,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 910,
-        "y": 900,
+        "x": 870,
+        "y": 720,
         "wires": [
             [
                 "c3b02c1f4edbee09"
@@ -2480,8 +2546,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1430,
-        "y": 900,
+        "x": 1390,
+        "y": 720,
         "wires": []
     },
     {
@@ -2496,8 +2562,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 900,
+        "x": 1060,
+        "y": 720,
         "wires": [
             [
                 "33228ac20bb88129"
@@ -2514,8 +2580,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 930,
-        "y": 1420,
+        "x": 890,
+        "y": 1240,
         "wires": [
             [
                 "94ae2989955beeda"
@@ -2531,8 +2597,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1310,
-        "y": 1420,
+        "x": 1270,
+        "y": 1240,
         "wires": []
     },
     {
@@ -2552,8 +2618,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1150,
-        "y": 1420,
+        "x": 1110,
+        "y": 1240,
         "wires": [
             [
                 "cdf04d878afee1d5",
@@ -2575,8 +2641,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 930,
-        "y": 1700,
+        "x": 890,
+        "y": 1520,
         "wires": [
             [
                 "98b2c82db768e5e1"
@@ -2601,8 +2667,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1150,
-        "y": 1700,
+        "x": 1110,
+        "y": 1520,
         "wires": [
             [
                 "8a003992c216e032",
@@ -2618,8 +2684,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1310,
-        "y": 1660,
+        "x": 1270,
+        "y": 1480,
         "wires": []
     },
     {
@@ -2633,8 +2699,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1270,
-        "y": 900,
+        "x": 1230,
+        "y": 720,
         "wires": [
             [
                 "48a302c4afb1b770"
@@ -2652,8 +2718,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1340,
-        "y": 1700,
+        "x": 1300,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -2669,8 +2735,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1330,
-        "y": 1460,
+        "x": 1290,
+        "y": 1280,
         "wires": [
             []
         ]
@@ -2686,8 +2752,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1340,
-        "y": 1380,
+        "x": 1300,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -2703,8 +2769,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1330,
-        "y": 1020,
+        "x": 1290,
+        "y": 840,
         "wires": [
             []
         ]
@@ -2720,8 +2786,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1360,
-        "y": 1580,
+        "x": 1320,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -2736,8 +2802,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 930,
-        "y": 1580,
+        "x": 890,
+        "y": 1400,
         "wires": [
             [
                 "d868f70232c05f3c"
@@ -2762,8 +2828,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1150,
-        "y": 1580,
+        "x": 1110,
+        "y": 1400,
         "wires": [
             [
                 "b473ee4234249f14",
@@ -2779,8 +2845,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1330,
-        "y": 1540,
+        "x": 1290,
+        "y": 1360,
         "wires": []
     },
     {
@@ -2800,8 +2866,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1160,
-        "y": 1260,
+        "x": 1120,
+        "y": 1080,
         "wires": [
             [
                 "81bdba71023d5429"
@@ -2818,8 +2884,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 940,
-        "y": 1280,
+        "x": 900,
+        "y": 1100,
         "wires": [
             [
                 "411b69c681820b0e",
@@ -2839,8 +2905,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1360,
-        "y": 1260,
+        "x": 1320,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -2862,8 +2928,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1160,
-        "y": 1300,
+        "x": 1120,
+        "y": 1120,
         "wires": [
             [
                 "0d8e4b5e24ee7f2c"
@@ -2878,8 +2944,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1530,
-        "y": 1280,
+        "x": 1490,
+        "y": 1100,
         "wires": []
     },
     {
@@ -2893,8 +2959,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1360,
-        "y": 1300,
+        "x": 1320,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -2916,8 +2982,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1130,
-        "y": 1100,
+        "x": 1090,
+        "y": 920,
         "wires": [
             [
                 "920e683749d9b015"
@@ -2934,8 +3000,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 930,
-        "y": 1120,
+        "x": 890,
+        "y": 940,
         "wires": [
             [
                 "ae293692fead8475",
@@ -2956,8 +3022,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1320,
-        "y": 1100,
+        "x": 1280,
+        "y": 920,
         "wires": [
             []
         ]
@@ -2970,8 +3036,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1510,
-        "y": 1120,
+        "x": 1470,
+        "y": 940,
         "wires": []
     },
     {
@@ -2991,8 +3057,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1140,
-        "y": 1140,
+        "x": 1100,
+        "y": 960,
         "wires": [
             [
                 "732470b6749e6a6e"
@@ -3010,8 +3076,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1340,
-        "y": 1140,
+        "x": 1300,
+        "y": 960,
         "wires": [
             []
         ]
@@ -3071,8 +3137,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 390,
-        "y": 1920,
+        "x": 370,
+        "y": 1780,
         "wires": [
             [
                 "0a2fd87870718fdd",
@@ -3090,8 +3156,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 1840,
+        "x": 130,
+        "y": 1700,
         "wires": [
             [
                 "1825fb3d6b513900"
@@ -3116,8 +3182,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 380,
-        "y": 1840,
+        "x": 360,
+        "y": 1700,
         "wires": [
             [
                 "ab2b5e34abca1e9b",
@@ -3136,8 +3202,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 600,
-        "y": 1800,
+        "x": 580,
+        "y": 1660,
         "wires": [
             []
         ]
@@ -3150,8 +3216,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 550,
-        "y": 1840,
+        "x": 530,
+        "y": 1700,
         "wires": []
     },
     {
@@ -3164,8 +3230,8 @@
         "method": "delete",
         "upload": true,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 1920,
+        "x": 120,
+        "y": 1780,
         "wires": [
             [
                 "2ae46a4303e606aa"
@@ -3181,8 +3247,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 570,
-        "y": 1920,
+        "x": 550,
+        "y": 1780,
         "wires": []
     },
     {
@@ -3196,8 +3262,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 620,
-        "y": 1880,
+        "x": 600,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -3212,8 +3278,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 2000,
+        "x": 120,
+        "y": 1860,
         "wires": [
             [
                 "57e581e2ecb4249c"
@@ -3233,8 +3299,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 2000,
+        "x": 330,
+        "y": 1860,
         "wires": [
             [
                 "3941ed959f6a49e2"
@@ -3252,8 +3318,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 510,
-        "y": 2000,
+        "x": 490,
+        "y": 1860,
         "wires": [
             [
                 "224f13cf53c48cde"
@@ -3272,8 +3338,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 2000,
+        "x": 650,
+        "y": 1860,
         "wires": [
             [
                 "de68f6ef9390d5d0"
@@ -3291,8 +3357,8 @@
         "name": "",
         "statusCode": "400",
         "headers": {},
-        "x": 860,
-        "y": 2040,
+        "x": 840,
+        "y": 1900,
         "wires": []
     },
     {
@@ -3320,8 +3386,8 @@
                 "module": "jsonwebtoken"
             }
         ],
-        "x": 880,
-        "y": 1980,
+        "x": 860,
+        "y": 1840,
         "wires": [
             [
                 "23e04e8b3f4f3a6b",
@@ -3340,8 +3406,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1120,
-        "y": 1940,
+        "x": 1100,
+        "y": 1800,
         "wires": [
             []
         ]
@@ -3354,8 +3420,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1090,
-        "y": 1980,
+        "x": 1070,
+        "y": 1840,
         "wires": []
     },
     {
@@ -3368,8 +3434,8 @@
         "method": "post",
         "upload": true,
         "swaggerDoc": "",
-        "x": 120,
-        "y": 320,
+        "x": 130,
+        "y": 280,
         "wires": [
             [
                 "96ddd1fd107d0fb1"
@@ -3382,8 +3448,9 @@
         "z": "c8b39bad946d8ab6",
         "g": "f49c4844a8fd418b",
         "name": "",
-        "func": "const { google } = googleapis;\n// const clientId = '595459114748-mubn4uvc9sc7mnbprnhpoe7auqsqiq2c';\n// const clientSecret = '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';\n// const redirectUri = 'https://authui-8247-650e926d920d771100000117.ubos.tech/Home';\n\nconst clientId = '667292788413-no7j1clmq48fv7d4i7hbqtfbetdvk0d7';\nconst clientSecret = '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';\nconst redirectUri = 'https://authui-8247-650e926d920d771100000117.ubos.tech/LogInGoogle';\nconst oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);\nlet code = msg.req.query.code;\n\noauth2Client.getToken(code, (err, tokens) => {\n    if (err) {\n        msg.payload = { error: err };\n        node.send(msg);\n    } else {\n        oauth2Client.setCredentials(tokens);\n        const peopleApi = google.people({ version: 'v1', auth: oauth2Client });\n        peopleApi.people.get({\n            resourceName: 'people/me',\n            personFields: 'emailAddresses,names,photos',\n        }, (err, res) => {\n            if (err) {\n               \n                msg.payload = { error: 'Failed to get user information' };\n            } else {\n                msg.payload = res.data;\n            }\n            node.send(msg);\n        });\n    }\n});",
+        "func": "const { google } = googleapis;\nconst ui = env.get(\"ui\");\n\nconst clientId = global.get(\"process_env.CLIENTID\");\nconst clientSecret = global.get(\"process_env.CLIENTSECRET\");\nconst redirectUri = `${ui}/LogInGoogle`;\nconst oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);\n\nlet code = msg.req.query.code;\n\noauth2Client.getToken(code, (err, tokens) => {\n    if (err) {\n        msg.payload = { error: err };\n        node.send(msg);\n    } else {\n        oauth2Client.setCredentials(tokens);\n        const peopleApi = google.people({ version: 'v1', auth: oauth2Client });\n        peopleApi.people.get({\n            resourceName: 'people/me',\n            personFields: 'emailAddresses,names,photos',\n        }, (err, res) => {\n            if (err) {\n               \n                msg.payload = { error: 'Failed to get user information' };\n            } else {\n                msg.payload = res.data;\n            }\n            node.send(msg);\n        });\n    }\n});",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3393,8 +3460,8 @@
                 "module": "googleapis"
             }
         ],
-        "x": 390,
-        "y": 320,
+        "x": 340,
+        "y": 260,
         "wires": [
             [
                 "789c8b4acff2f6b7"
@@ -3407,14 +3474,15 @@
         "z": "c8b39bad946d8ab6",
         "g": "f49c4844a8fd418b",
         "name": "check ",
-        "func": "\nconst email = msg.payload.emailAddresses[0].value;\nmsg.userGooglePhoto = msg.payload.photos[0].url\n\n    msg.collection = \"admins\";\n    msg.oldpayload = msg.payload;\n\n    msg.payload = {\n        email: email,\n        deleted: false\n    };\n\nreturn msg\n",
+        "func": "const email = msg.payload.emailAddresses[0].value;\nmsg.userGooglePhoto = msg.payload.photos[0].url\n\n    msg.collection = \"admins\";\n    msg.oldpayload = msg.payload;\n\n    msg.payload = {\n        email: email,\n        deleted: false\n    };\n\nreturn msg\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 320,
+        "x": 470,
+        "y": 260,
         "wires": [
             [
                 "f44a8595ea0bcb12"
@@ -3432,8 +3500,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 680,
-        "y": 320,
+        "x": 610,
+        "y": 260,
         "wires": [
             [
                 "e658de794a3c71fb"
@@ -3448,6 +3516,7 @@
         "name": "check",
         "func": "if(msg.payload.length>0){\n    \n    return [msg,null]\n}else{\n    return [null,msg]\n}",
         "outputs": 2,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3461,8 +3530,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 860,
-        "y": 320,
+        "x": 750,
+        "y": 260,
         "wires": [
             [
                 "8c1b30db3408fa4f"
@@ -3482,8 +3551,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 100,
-        "y": 160,
+        "x": 110,
+        "y": 180,
         "wires": [
             [
                 "32f2fb7d2d4e6a4f"
@@ -3499,8 +3568,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 590,
-        "y": 160,
+        "x": 530,
+        "y": 180,
         "wires": []
     },
     {
@@ -3511,12 +3580,13 @@
         "name": "check jwt",
         "func": "msg.cookies={\n    user_token: null\n}\n\nmsg.payload={\n    success: true\n}\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
-        "y": 160,
+        "x": 250,
+        "y": 180,
         "wires": [
             [
                 "ae7478b0efa0f670"
@@ -3541,8 +3611,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 420,
-        "y": 160,
+        "x": 400,
+        "y": 180,
         "wires": [
             [
                 "18757ce4ce343bab"
@@ -3557,8 +3627,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1580,
-        "y": 260,
+        "x": 1230,
+        "y": 180,
         "wires": []
     },
     {
@@ -3569,6 +3639,7 @@
         "name": "jwt token",
         "func": "node.warn(msg.payload[0]._id)\nconst token = jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = token;\nmsg.payload = token;\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3578,8 +3649,8 @@
                 "module": "jsonwebtoken"
             }
         ],
-        "x": 1410,
-        "y": 260,
+        "x": 1100,
+        "y": 180,
         "wires": [
             [
                 "e30c726e83877e71"
@@ -3592,8 +3663,9 @@
         "z": "c8b39bad946d8ab6",
         "g": "f49c4844a8fd418b",
         "name": "URL",
-        "func": "const { google } = googleapis;\n\n// const oauth2Client = new google.auth.OAuth2(\n//   `595459114748-mubn4uvc9sc7mnbprnhpoe7auqsqiq2c`,\n//   `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`,\n//   `https://authui-8247-650e926d920d771100000117.ubos.tech/Home`\n// )\nconst oauth2Client = new google.auth.OAuth2(\n  `667292788413-no7j1clmq48fv7d4i7hbqtfbetdvk0d7`,\n  `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`,\n  `https://authui-8247-650e926d920d771100000117.ubos.tech/LogInGoogle`\n)\n\n// Access scopes for read-only Drive activity.\nconst scopes = [\n  'https://www.googleapis.com/auth/drive.metadata.readonly',\n  'https://www.googleapis.com/auth/userinfo.email',\n  'https://www.googleapis.com/auth/userinfo.profile'\n];\n\n// Generate a url that asks permissions for the Drive activity scope\nconst authorizationUrl = oauth2Client.generateAuthUrl({\n  // 'online' (default) or 'offline' (gets refresh_token)\n  access_type: 'offline',\n  /** Pass in the scopes array defined above.\n    * Alternatively, if only one scope is needed, you can pass a scope URL as a string */\n  scope: scopes,\n  // Enable incremental authorization. Recommended as a best practice.\n  include_granted_scopes: true\n});\n\nmsg.payload = authorizationUrl;\n\nreturn msg;\n\n// https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.metadata.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&include_granted_scopes=true&response_type=code&client_id=595459114748-mubn4uvc9sc7mnbprnhpoe7auqsqiq2c&redirect_uri=https%3A%2F%2Fauthui-8247-650e926d920d771100000117.ubos.tech%2FHome",
+        "func": "const { google } = googleapis;\nconst ui = env.get(\"ui\");\nconst clientId = global.get(\"process_env.CLIENTID\");\nconst clientSecret = global.get(\"process_env.CLIENTSECRET\");\n\nconst oauth2Client = new google.auth.OAuth2(\n  clientId, \n  clientSecret,\n  `${ui}/LogInGoogle`\n)\n\n// Access scopes for read-only Drive activity.\nconst scopes = [\n  'https://www.googleapis.com/auth/drive.metadata.readonly', // Allows read-only access to Google Drive metadata.\n  'https://www.googleapis.com/auth/userinfo.email', // Allow access to the user's email address and basic profile information.\n  'https://www.googleapis.com/auth/userinfo.profile' // Allow access to the user's email address and basic profile information.\n];\n\n// Generate a url that asks permissions for the Drive activity scope\nconst authorizationUrl = oauth2Client.generateAuthUrl({\n  // 'online' (default) or 'offline' (gets refresh_token)\n  access_type: 'offline',\n  /** Pass in the scopes array defined above.\n    * Alternatively, if only one scope is needed, you can pass a scope URL as a string */\n  scope: scopes,\n  // Enable incremental authorization. Recommended as a best practice.\n  include_granted_scopes: true\n});\n\nmsg.payload = authorizationUrl;\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3607,8 +3679,8 @@
                 "module": "googleapis"
             }
         ],
-        "x": 280,
-        "y": 60,
+        "x": 310,
+        "y": 100,
         "wires": [
             [
                 "7276ef91a4fcfbba"
@@ -3637,7 +3709,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
+        "x": 140,
         "y": 60,
         "wires": [
             [
@@ -3660,7 +3732,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 450,
-        "y": 60,
+        "y": 100,
         "wires": []
     },
     {
@@ -3671,12 +3743,13 @@
         "name": "function 533",
         "func": "if (msg.req.query?.code && msg.req.query?.code !==\"null\"){\n    return [msg,null]\n}else{\n    return[null,msg]\n}\n",
         "outputs": 2,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 275,
-        "y": 320,
+        "x": 235,
+        "y": 280,
         "wires": [
             [
                 "1e91697ac2db3998"
@@ -3695,8 +3768,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 440,
-        "y": 380,
+        "x": 330,
+        "y": 300,
         "wires": []
     },
     {
@@ -3707,12 +3780,13 @@
         "name": "user not exists in platform",
         "func": "msg.payload = {\n    data: 'Користувач не існує в системі'\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1000,
-        "y": 400,
+        "x": 930,
+        "y": 300,
         "wires": [
             [
                 "b1a0dbb265b01eb0"
@@ -3727,8 +3801,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1200,
-        "y": 400,
+        "x": 1110,
+        "y": 300,
         "wires": []
     },
     {
@@ -3739,12 +3813,13 @@
         "name": "check user active",
         "func": "msg.fromdb = msg.payload\n\nif (msg.payload[0].active) {\n    \n    return [msg, null];\n} else {\n    return [null, msg]\n}\n",
         "outputs": 2,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 300,
+        "x": 910,
+        "y": 220,
         "wires": [
             [
                 "7f716983a77c86a6"
@@ -3766,6 +3841,7 @@
         "name": "update user data",
         "func": "msg.collection = \"admins\";\n\nmsg.query = {\n    \"_id\": objectid(msg.payload[0]._id)\n}\n\nmsg.payload = {\n    $set: {\n        \"active\": true,\n        \"firstname\": msg.oldpayload.names[0].familyName,\n        \"lastname\": msg.oldpayload.names[0].givenName,\n        \"finishAt\": global.get(\"convert_date\"),\n        \"googleAvatar\": msg.userGooglePhoto\n    }\n}\n\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3775,8 +3851,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1400,
-        "y": 320,
+        "x": 1130,
+        "y": 240,
         "wires": [
             [
                 "39af801020f87f81"
@@ -3794,8 +3870,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1610,
-        "y": 320,
+        "x": 1320,
+        "y": 240,
         "wires": [
             [
                 "22b08a1354cd7157"
@@ -3810,6 +3886,7 @@
         "name": "jwt token",
         "func": "node.warn(msg.fromdb[0]._id)\nconst token = jwt.sign(\n    { user_id: msg.fromdb[0]._id, email: msg.fromdb[0].email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = token;\nmsg.payload = token;\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3819,8 +3896,8 @@
                 "module": "jsonwebtoken"
             }
         ],
-        "x": 1770,
-        "y": 320,
+        "x": 1480,
+        "y": 240,
         "wires": [
             [
                 "3ec27d1aa2132072"
@@ -3835,8 +3912,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1920,
-        "y": 320,
+        "x": 1630,
+        "y": 240,
         "wires": []
     },
     {
@@ -3850,7 +3927,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "097b05d6f95dab62"
@@ -3867,7 +3944,7 @@
         "statusCode": "401",
         "headers": {},
         "x": 1060,
-        "y": 660,
+        "y": 520,
         "wires": []
     },
     {
@@ -3888,7 +3965,7 @@
             }
         ],
         "x": 340,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "73893182e2e2ed57"
@@ -3906,7 +3983,7 @@
         ],
         "uncaught": false,
         "x": 120,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "265641df05c1ca83"
@@ -3926,7 +4003,7 @@
         "finalize": "",
         "libs": [],
         "x": 290,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "de79ea462e97e016"
@@ -3942,7 +4019,7 @@
         "statusCode": "",
         "headers": {},
         "x": 450,
-        "y": 720,
+        "y": 580,
         "wires": []
     },
     {
@@ -3963,7 +4040,7 @@
             }
         ],
         "x": 510,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "1a6b5d862a0b4bfc"
@@ -3976,14 +4053,15 @@
         "z": "c8b39bad946d8ab6",
         "g": "d78377c07a215120",
         "name": "check auth",
-        "func": "\nif(msg.payload.length > 0){\n    msg.payload = msg.payload[0]\n    msg.user = {\n        auth: \"Success\",\n        code:200,\n        user: msg.payload\n    }\n    return [msg,null]\n}else{\n    msg.payload = {\n        auth: \"Unautorizate\",\n        code: 401,\n        login_id:msg.check.login_id,\n        app_id:msg.check.app_id\n    }\n    return [null,msg]\n}\n\n",
+        "func": "if(msg.payload.length > 0){\n    msg.payload = msg.payload[0]\n    msg.user = {\n        auth: \"Success\",\n        code:200,\n        user: msg.payload\n    }\n    return [msg,null]\n}else{\n    msg.payload = {\n        auth: \"Unautorizate\",\n        code: 401,\n        login_id:msg.check.login_id,\n        app_id:msg.check.app_id\n    }\n    return [null,msg]\n}\n\n",
         "outputs": 2,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "92a82d990292b9c2"
@@ -4002,7 +4080,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1890,
-        "y": 580,
+        "y": 440,
         "wires": []
     },
     {
@@ -4017,7 +4095,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 700,
-        "y": 620,
+        "y": 480,
         "wires": [
             [
                 "cfc7631182b5ef67"
@@ -4036,7 +4114,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1250,
-        "y": 580,
+        "y": 440,
         "wires": [
             [
                 "0cfa0691dcae508d"
@@ -4061,7 +4139,7 @@
             }
         ],
         "x": 1060,
-        "y": 580,
+        "y": 440,
         "wires": [
             [
                 "ca2dc46c7edc0fb2"
@@ -4079,7 +4157,7 @@
         ],
         "uncaught": false,
         "x": 1490,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "0b6ff6d92b1de7e7"
@@ -4099,10 +4177,28 @@
         "finalize": "",
         "libs": [],
         "x": 1680,
-        "y": 660,
+        "y": 520,
         "wires": [
             [
                 "a602a24988dcc60f"
+            ]
+        ]
+    },
+    {
+        "id": "ffdbe8cb5092514f",
+        "type": "http in",
+        "z": "c8b39bad946d8ab6",
+        "g": "f49c4844a8fd418b",
+        "name": "",
+        "url": "/getGoogleUrl",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "c77f1cb54c3e7637"
             ]
         ]
     },
@@ -4247,8 +4343,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "send email for app",
-        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `https://authui-8247-650e926d920d771100000117.ubos.tech/Home`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1  style=\"${colorHeading}\">Доступ до Visia</h1>\n    <p style=\"${basicText}\">Ви отримали доступ до системи Visia. Перейдіть до системи для того щоб завершити реєстрацію і отримати доступ до призначених проектів</p>\n    <p style=\"${basicText}\"></p>\n    <a href=\"${url}\" style=\"${link}\">Завершити реєстрацію</a>\n    <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продутом пишіть на admin@visia.pro</p>\n</div>\n`;\n\nmsg.to = msg.oldpayload.email\nmsg.topic = 'Доступ до Visia';\nmsg.payload = text;\n\nreturn msg;",
+        "func": "const uiUrl = env.get(\"uiUrl\");\nconst url = `${uiUrl}/Home`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\n// const text = `\n// <div style=\"padding: 10px 0; color: black;\">\n//     <h1  style=\"${colorHeading}\">Доступ до Visia</h1>\n//     <p style=\"${basicText}\">Ви отримали доступ до системи Visia. Перейдіть до системи для того щоб завершити реєстрацію і отримати доступ до призначених проектів</p>\n//     <p style=\"${basicText}\"></p>\n//     <a href=\"${url}\" style=\"${link}\">Завершити реєстрацію</a>\n//     <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продутом пишіть на admin@visia.pro</p>\n// </div>\n// `;\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1 style=\"${colorHeading}\">Access to Visia</h1>\n    <p style=\"${basicText}\">You have been granted access to the Visia system. Please proceed to the system to complete your registration and gain access to the assigned projects.</p>\n    <p style=\"${basicText}\"></p>\n    <a href=\"${url}\" style=\"${link}\">Complete registration</a>\n    <p style=\"${basicText}\">If you have any questions about the registration process or working with the product, please contact us at admin@visia.pro</p>\n</div>\n`;\n\n\nmsg.to = msg.oldpayload.email\nmsg.topic = 'Access to Visia';\nmsg.payload = text;\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4269,8 +4366,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "response",
-        "func": "msg.payload = {\n    data: `Користувач з поштою \"${msg.oldpayload.email}\" вже існує на платформі!`\n}\nreturn msg;",
+        "func": "msg.payload = {\n    data: `User with this email \"${msg.oldpayload.email}\" already exists!`\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4443,8 +4541,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "save to history",
-        "func": "msg.collection = \"history\"\n\nmsg.payload = {\n    message: `Ви отримали доступ до середовища Visia у ролі ${msg.payload[0].name}`,\n    createdAt: global.get(\"convert_date\"),\n    deleted: false,\n    userId: msg.userId\n}\nreturn msg;",
+        "func": "msg.collection = \"history\"\n\nmsg.payload = {\n    message: `You have been granted access to the Visia environment as ${msg.payload[0].name}`,\n    createdAt: global.get(\"convert_date\"),\n    deleted: false,\n    userId: msg.userId\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4524,8 +4623,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "send email for app",
-        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `${nodeUrl}/Home`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1  style=\"${colorHeading}\">Доступ до Visia</h1>\n    <p style=\"${basicText}\">Ви отримали доступ до системи Visia. Перейдіть до системи для того щоб пройти реєстрацію і отримати доступ до призначених проектів</p>\n    \n    <p style=\"${basicText}\">Доступ до існуючих проектів</p>\n    ${msg.projectNames.map(projectName => (\n        `<p style=\"${basicText}\">\n        ${projectName}\n        </p>`\n    ))}\n    \n    <a href=\"${url}\" style=\"${link}\">Завершити реєстрацію</a>\n    <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продуктом пишіть на admin@visia.pro</p>\n</div>\n`;\n\nmsg.to = msg.oldpayload.email\nmsg.topic = 'Доступ до Visia';\nmsg.payload = text;\n\nreturn msg;",
+        "func": "const uiUrl = env.get(\"uiUrl\");\nconst url = `${uiUrl}/Home`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\n// const text = `\n// <div style=\"padding: 10px 0; color: black;\">\n//     <h1  style=\"${colorHeading}\">Доступ до Visia</h1>\n//     <p style=\"${basicText}\">Ви отримали доступ до системи Visia. Перейдіть до системи для того щоб пройти реєстрацію і отримати доступ до призначених проектів</p>\n    \n//     <p style=\"${basicText}\">Доступ до існуючих проектів</p>\n//     ${msg.projectNames.map(projectName => (\n//         `<p style=\"${basicText}\">\n//         ${projectName}\n//         </p>`\n//     ))}\n    \n//     <a href=\"${url}\" style=\"${link}\">Завершити реєстрацію</a>\n//     <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продуктом пишіть на admin@visia.pro</p>\n// </div>\n// `;\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1 style=\"${colorHeading}\">Access to Visia</h1>\n    <p style=\"${basicText}\">You have been granted access to the Visia system. Please proceed to the system to complete your registration and gain access to the assigned projects.</p>\n    \n    <p style=\"${basicText}\">Access to existing projects</p>\n    ${msg.projectNames.map(projectName => (\n        `<p style=\"${basicText}\">\n        ${projectName}\n        </p>`\n    ))}\n    \n    <a href=\"${url}\" style=\"${link}\">Complete registration</a>\n    <p style=\"${basicText}\">If you have any questions about the registration process or working with the product, please contact us at admin@visia.pro</p>\n</div>\n`;\n\n\nmsg.to = msg.oldpayload.email\nmsg.topic = 'Access to Visia';\nmsg.payload = text;\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4546,8 +4646,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "save to history",
-        "func": "msg.collection = \"history\"\n\nmsg.payload = msg.projectNames.map(i => ({\n    message: `Ви отримали доступ до проекту ${i}`,\n    createdAt: global.get(\"convert_date\"),\n    deleted: false,\n    userId: msg.userId\n}))\nreturn msg;",
+        "func": "msg.collection = \"history\"\n\nmsg.payload = msg.projectNames.map(i => ({\n    message: `You have been granted access to the project ${i}`,\n    createdAt: global.get(\"convert_date\"),\n    deleted: false,\n    userId: msg.userId\n}))\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4578,42 +4679,6 @@
         ]
     },
     {
-        "id": "6f70f661f167dd24",
-        "type": "e-mail",
-        "z": "5d37dc5e8bf693d8",
-        "g": "9005e0b501e3898f",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": false,
-        "token": "",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2210,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "a307777256a983c9",
-        "type": "e-mail",
-        "z": "5d37dc5e8bf693d8",
-        "g": "9005e0b501e3898f",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "authtype": "BASIC",
-        "saslformat": false,
-        "token": "",
-        "secure": true,
-        "tls": true,
-        "name": "",
-        "dname": "",
-        "x": 2530,
-        "y": 120,
-        "wires": []
-    },
-    {
         "id": "3bc3b863ac50762a",
         "type": "http response",
         "z": "5d37dc5e8bf693d8",
@@ -4621,8 +4686,8 @@
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 2220,
-        "y": 340,
+        "x": 2180,
+        "y": 260,
         "wires": []
     },
     {
@@ -4783,8 +4848,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "function 474",
-        "func": "\n\n\nmsg.a = msg.payload[0].managers_project.map(e=>{\n    return {\n        name:e.name,\n        // _id:e._id,\n        role:\"Менеджер\"\n    }\n})\n\nmsg.b = msg.payload[0].watcher_project.map(e => {\n    return {\n        name: e.name,\n        // _id: e._id,\n        role: \"Наглядач\"\n    }\n})\nmsg.payload = [...msg.a,...msg.b]\nreturn msg;",
+        "func": "\n\n\nmsg.a = msg.payload[0].managers_project.map(e=>{\n    return {\n        name:e.name,\n        // _id:e._id,\n        role:\"Менеджер\"\n    }\n})\n\nmsg.b = msg.payload[0].watcher_project.map(e => {\n    return {\n        name: e.name,\n        // _id: e._id,\n        role: \"Supervisor\"\n    }\n})\nmsg.payload = [...msg.a,...msg.b]\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5072,8 +5138,9 @@
         "z": "5d37dc5e8bf693d8",
         "g": "9005e0b501e3898f",
         "name": "function 478",
-        "func": "msg.a = msg.payload[0].managers_project.map(e=>{\n    return {\n        name:e.name,\n        _id:e._id,\n        role:\"Менеджер\"\n    }\n})\n\nmsg.b = msg.payload[0].watcher_project.map(e => {\n    return {\n        name: e.name,\n        _id: e._id,\n        role: \"Наглядач\"\n    }\n})\nmsg.payload = [...msg.a,...msg.b]\nreturn msg;",
+        "func": "msg.a = msg.payload[0].managers_project.map(e=>{\n    return {\n        name:e.name,\n        _id:e._id,\n        role:\"Manager\"\n    }\n})\n\nmsg.b = msg.payload[0].watcher_project.map(e => {\n    return {\n        name: e.name,\n        _id: e._id,\n        role: \"Supervisor\"\n    }\n})\nmsg.payload = [...msg.a,...msg.b]\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5595,6 +5662,42 @@
         "statusType": "auto",
         "x": 270,
         "y": 900,
+        "wires": []
+    },
+    {
+        "id": "6f70f661f167dd24",
+        "type": "e-mail",
+        "z": "5d37dc5e8bf693d8",
+        "g": "9005e0b501e3898f",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 2170,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a307777256a983c9",
+        "type": "e-mail",
+        "z": "5d37dc5e8bf693d8",
+        "g": "9005e0b501e3898f",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 2530,
+        "y": 120,
         "wires": []
     },
     {
@@ -6792,8 +6895,9 @@
         "z": "dbcf23dd39eba172",
         "g": "f490d1a0e639dbca",
         "name": "function 481",
-        "func": "msg.payload = [\n    {\n        \"label\": \"Структура проекту\",\n        \"value\": `Structure?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n        \"label\": \"Договори\",\n        \"value\": `Сontracts?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n\n        \"label\": \"ТЕП\",\n        \"value\": `Tep?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n\n        \"label\": \"Команда\",\n        \"value\": `Team?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n        \"label\": \"Налаштування\",\n        \"value\": `ProjectSettings?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    }\n]\nreturn msg;\n",
+        "func": "msg.payload = [\n    {\n        \"label\": \"Project Structure\",\n        \"value\": `Structure?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n        \"label\": \"Contracts\",\n        \"value\": `Сontracts?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n\n        \"label\": \"TEP\",\n        \"value\": `Tep?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n\n        \"label\": \"Team\",\n        \"value\": `Team?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    },\n    {\n        \"label\": \"Settings\",\n        \"value\": `ProjectSettings?${msg.req.query._id}`,\n        \"icon\": \"\",\n        \"_id\": \"\"\n    }\n]\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6826,6 +6930,7 @@
         "name": "getAllProjects",
         "func": "msg.collection = 'projects';\n\nmsg.payload = {\n    deleted:false\n}\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -7614,8 +7719,9 @@
         "z": "dbcf23dd39eba172",
         "g": "0bed0c28c4bac75e",
         "name": "not uniqueness",
-        "func": "msg.payload = {\n    data: 'Комерційна назва проєкту не унікальна'\n}\nreturn msg;",
+        "func": "msg.payload = {\n    data: 'The commercial name of the project is not unique'\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -7730,29 +7836,6 @@
         ]
     },
     {
-        "id": "eaabddecfcf633c9",
-        "type": "array-loop",
-        "z": "dbcf23dd39eba172",
-        "g": "bf1873d6733e8bc7",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 2000,
-        "y": 540,
-        "wires": [
-            [
-                "01b3a72edd22ed84"
-            ],
-            [
-                "1aeb69b887617149"
-            ]
-        ]
-    },
-    {
         "id": "5d807e7665f5f5d7",
         "type": "function",
         "z": "dbcf23dd39eba172",
@@ -7781,6 +7864,7 @@
         "name": "function 537",
         "func": "msg.collection = 'projectsTasks';\ndelete msg.payload._id\nlet _id = objectid()\n\nmsg.payload = {\n    _id,\n   ...msg.payload,\n    startDate: global.get(\"convert_date\"),\n    deadline: global.get(\"convert_dateplusdays\"),\n    key: _id,\n    client: '',\n    clientName: '',\n    customer: '',\n    difference: '',\n    projectTemplateId: objectid(msg.id),\n    deleted: false,\n    status:\"Драфт\",\n    createdAt: global.get(\"convert_date\"),\n    files: [],\n    updatedAt: global.get(\"convert_date\"),  \n}\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -7835,8 +7919,9 @@
         "z": "dbcf23dd39eba172",
         "g": "bf1873d6733e8bc7",
         "name": "function 623",
-        "func": "msg.payload = {\n    data: 'Проєкт створений успішно'\n}\nreturn msg;",
+        "func": "msg.payload = {\n    data: 'Project created successfully'\n}\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -8131,21 +8216,6 @@
         "wires": []
     },
     {
-        "id": "a5c3700907239eb3",
-        "type": "mongodb out",
-        "z": "dbcf23dd39eba172",
-        "mongodb": "40e92400c5b4fa25",
-        "name": "",
-        "collection": "",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 480,
-        "y": 1680,
-        "wires": []
-    },
-    {
         "id": "7af90a8c5780313c",
         "type": "inject",
         "z": "dbcf23dd39eba172",
@@ -8219,28 +8289,6 @@
         ]
     },
     {
-        "id": "d5a72a05ccb0bd10",
-        "type": "array-loop",
-        "z": "dbcf23dd39eba172",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 860,
-        "y": 1360,
-        "wires": [
-            [
-                "72a59e77dd2754b4"
-            ],
-            [
-                "cbd9dce74794b354"
-            ]
-        ]
-    },
-    {
         "id": "cbd9dce74794b354",
         "type": "function",
         "z": "dbcf23dd39eba172",
@@ -8299,6 +8347,66 @@
         "x": 410,
         "y": 540,
         "wires": []
+    },
+    {
+        "id": "a5c3700907239eb3",
+        "type": "mongodb out",
+        "z": "dbcf23dd39eba172",
+        "mongodb": "40e92400c5b4fa25",
+        "name": "",
+        "collection": "",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 480,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "eaabddecfcf633c9",
+        "type": "array-loop",
+        "z": "dbcf23dd39eba172",
+        "g": "bf1873d6733e8bc7",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 2000,
+        "y": 540,
+        "wires": [
+            [
+                "01b3a72edd22ed84"
+            ],
+            [
+                "1aeb69b887617149"
+            ]
+        ]
+    },
+    {
+        "id": "d5a72a05ccb0bd10",
+        "type": "array-loop",
+        "z": "dbcf23dd39eba172",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 860,
+        "y": 1360,
+        "wires": [
+            [
+                "72a59e77dd2754b4"
+            ],
+            [
+                "cbd9dce74794b354"
+            ]
+        ]
     },
     {
         "id": "955bbd52b897ea6a",
@@ -8412,8 +8520,9 @@
         "z": "2fce404005fef31a",
         "g": "af30c153e4a2f931",
         "name": "function 516",
-        "func": "\n\nmsg.collection = \"contracts\";\n\nmsg.payload = [\n    {\n        $match: {\n            projectId: objectid(msg.req.query._id),\n            deleted:false\n        }\n    },\n    {\n        $lookup: {\n            from: \"counterparties\",\n            localField: \"client\",\n            foreignField: \"_id\",\n            as: \"clientInfo\"\n        }\n    },\n    {\n        $addFields: {\n            clientName: {\n                $arrayElemAt: [\"$clientInfo.name\", 0]\n            }\n        }\n    },\n    {\n        $project: {\n            clientInfo: 0 \n        }\n    }\n];\n\nreturn msg;\n",
+        "func": "msg.collection = \"contracts\";\n\nmsg.payload = [\n    {\n        $match: {\n            projectId: objectid(msg.req.query._id),\n            deleted:false\n        }\n    },\n    {\n        $lookup: {\n            from: \"counterparties\",\n            localField: \"client\",\n            foreignField: \"_id\",\n            as: \"clientInfo\"\n        }\n    },\n    {\n        $addFields: {\n            clientName: {\n                $arrayElemAt: [\"$clientInfo.name\", 0]\n            }\n        }\n    },\n    {\n        $project: {\n            clientInfo: 0 \n        }\n    }\n];\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -8446,7 +8555,8 @@
         "y": 60,
         "wires": [
             [
-                "c1145e3ed344a9a6"
+                "c1145e3ed344a9a6",
+                "851d1cb1e3bb753f"
             ]
         ]
     },
@@ -8490,8 +8600,9 @@
         "z": "2fce404005fef31a",
         "g": "af30c153e4a2f931",
         "name": "function 518",
-        "func": "\nmsg.payload = [\n    {\n        key: \"65739de7046b1b1000001d12\",\n        name: \"Тип контрагенту: Замовник\",\n        type: \"\",\n        isAction: true,\n        children: msg.fromDB.filter(e => e.type === \"Замовник\")\n            .map(e => {\n                const childObject = {};\n                for (const key in e) {\n                    if (Array.isArray(e[key]) && e[key].length > 0) {\n                        // Якщо властивість - масив, створюємо об'єкт із JSON-строкою ключа та JSON-строкою значення масиву так треба для структури таблиці\n                        childObject[key] = JSON.stringify(e[key]);\n                    } else {\n                        // Якщо властивість не є масивом, просто додаємо її до об'єкта\n                        childObject[key] = e[key];\n                    }\n                }\n                return childObject;\n            })\n    },\n    {\n        key: \"65739de7046b1b1000001d13\",\n        name: \"Тип контрагенту: Підрядник\",\n        isAction: true,\n        children: msg.fromDB.filter(e => e.type === \"Підрядник\")\n            .map(e => {\n                const childObject = {};\n                for (const key in e) {\n                    if (Array.isArray(e[key]) && e[key].length > 0) {\n                        childObject[key] = JSON.stringify(e[key]);\n                    } else {\n                        childObject[key] = e[key];\n                    }\n                }\n                return childObject;\n            })\n    }\n];\n\nreturn msg;\n;\n\n\n\n\n\n\n",
+        "func": "msg.payload = [\n    {\n        key: \"65739de7046b1b1000001d12\",\n        name: \"Counterparty Type: Customer\",\n        type: \"\",\n        isAction: true,\n        children: msg.fromDB.filter(e => e.type === \"Замовник\")\n            .map(e => {\n                const childObject = {};\n                for (const key in e) {\n                    if (Array.isArray(e[key]) && e[key].length > 0) {\n                        childObject[key] = JSON.stringify(e[key]);\n                    } else {\n                        childObject[key] = e[key];\n                    }\n                }\n                return childObject;\n            })\n    },\n    {\n        key: \"65739de7046b1b1000001d13\",\n        name: \"Counterparty Type: Contractor\",\n        isAction: true,\n        children: msg.fromDB.filter(e => e.type === \"Підрядник\")\n            .map(e => {\n                const childObject = {};\n                for (const key in e) {\n                    if (Array.isArray(e[key]) && e[key].length > 0) {\n                        childObject[key] = JSON.stringify(e[key]);\n                    } else {\n                        childObject[key] = e[key];\n                    }\n                }\n                return childObject;\n            })\n    }\n];\n\nreturn msg;\n;\n\n\n\n\n\n\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -8590,8 +8701,9 @@
         "z": "2fce404005fef31a",
         "g": "20afcaf136d6dde7",
         "name": "from app",
-        "func": "// Вказуємо назву колекції\nmsg.collection = 'counterparties';\n\n// Вказуємо дані для вставки або оновлення\nmsg.payload = {\n    deleted: false\n};\n\n// Вказуємо поля для вибірки\nmsg.projection = {\n    _id: 1,\n    name: 1\n};\n\n// Повертаємо об'єкт msg\nreturn msg;\n",
+        "func": "msg.collection = 'counterparties';\n\nmsg.payload = {\n    deleted: false\n};\n\nmsg.projection = {\n    _id: 1,\n    name: 1\n};\n\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -10099,8 +10211,9 @@
         "z": "2fce404005fef31a",
         "g": "af30c153e4a2f931",
         "name": "function 523",
-        "func": "\nmsg.collection =\"contracts\";\n\nmsg.payload={\n    ...msg.payload,\n    sum: new Intl.NumberFormat('en-US').format(msg.payload.sum),\n    projectId: objectid(msg.req.query._id),\n    client: msg.payload.client && msg.payload.client !== \"\" ? objectid(msg.payload.client):\"\",\n    contractType: msg.payload.contractType ? \"Додатковий\" : \"Основний\",\n    type: msg.payload.type ? \"Підрядник\" : \"Замовник\",\n    files: msg.payload.files && msg.payload.files !== null && msg.payload.files !== 'null' ? msg.payload.files.map(e => {\n        return {\n            ...e,\n            fileId: objectid(e.fileId),\n\n        }\n    }) :[],\n    createdAt: global.get(\"convert_date\"),\n    updatedAt: \"\",\n    deleted:false\n}\nreturn msg\n",
+        "func": "msg.collection =\"contracts\";\n\nmsg.payload={\n    ...msg.payload,\n    sum: new Intl.NumberFormat('en-US').format(msg.payload.sum),\n    projectId: objectid(msg.req.query._id),\n    client: msg.payload.client && msg.payload.client !== \"\" ? objectid(msg.payload.client):\"\",\n    contractType: msg.payload.contractType ? \"Додатковий\" : \"Основний\",\n    type: msg.payload.type ? \"Підрядник\" : \"Замовник\",\n    files: msg.payload.files && msg.payload.files !== null && msg.payload.files !== 'null' ? msg.payload.files.map(e => {\n        return {\n            ...e,\n            fileId: objectid(e.fileId),\n\n        }\n    }) :[],\n    createdAt: global.get(\"convert_date\"),\n    updatedAt: \"\",\n    deleted:false\n}\nreturn msg\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -10124,8 +10237,9 @@
         "z": "2fce404005fef31a",
         "g": "af30c153e4a2f931",
         "name": "convert data",
-        "func": "function clearChildrenData(data) {\n    return data.map(item => {\n        if (item.children && item.children.length === 0) {\n            let dataArr = {\n                \"_id\": \"\",\n                \"name\": \"\",\n                \"status\": \"\",\n                \"type\": \"\",\n                \"client\": \"\",\n                \"contractType\": \"\",\n                \"sum\": \"\",\n                \"relatedContracts\": \"\",\n                \"relatedTasks\": \"\",\n                \"adminExpenses\": \"\",\n                \"files\": \"\",\n                \"projectId\": \"\",\n                \"createdAt\": \"\",\n                \"deleted\": \"\",\n                \"updatedAt\": \"\",\n                \"clientName\": \"\"\n            };\n\n          \n\n            // Повертаємо новий масив, додаючи об'єкт dataArr до \"children\"\n            return { ...item, children: [...item.children, dataArr] };\n        } else {\n            return item;\n        }\n    });\n}\n\n// Приклад використання функції\nconst yourData = msg.payload;\n\nconst result = clearChildrenData(yourData);\nmsg.payload = result;\nreturn msg;\n",
+        "func": "function clearChildrenData(data) {\n    return data.map(item => {\n        if (item.children && item.children.length === 0) {\n            let dataArr = {\n                \"_id\": \"\",\n                \"name\": \"\",\n                \"status\": \"\",\n                \"type\": \"\",\n                \"client\": \"\",\n                \"contractType\": \"\",\n                \"sum\": \"\",\n                \"relatedContracts\": \"\",\n                \"relatedTasks\": \"\",\n                \"adminExpenses\": \"\",\n                \"files\": \"\",\n                \"projectId\": \"\",\n                \"createdAt\": \"\",\n                \"deleted\": \"\",\n                \"updatedAt\": \"\",\n                \"clientName\": \"\"\n            };\n\n          \n\n            return { ...item, children: [...item.children, dataArr] };\n        } else {\n            return item;\n        }\n    });\n}\n\nconst yourData = msg.payload;\n\nconst result = clearChildrenData(yourData);\nmsg.payload = result;\nreturn msg;\n",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -10222,6 +10336,7 @@
         "name": "update projectsTasks summary",
         "func": "msg.collection = 'projectsTasks';\n\nmsg.query = {\n    \"_id\": objectid(msg.payload[0]._id),\n};\n\n\n\n\n\n// \"difference\":,\n// \"customer\": \n// \"client\": \n\n// 1 Відповідно від типу договора  розрахувати правильно маржу \n// 2 Оновити саме ті поля  (з підрядником або з замовником)\n// 3 Перевірити чи все працює з іншим функціоналом (типи даних повинні бути однакові)\nlet data = {}\n\nif (msg.type === \"Замовник\") {\n    // parseFloat(clientAmount.text.replace(/,/g, '')\n    // new Intl.NumberFormat('en-US').format()\n    let totalSum = msg.sum !== msg.oldSum ? ((+msg.sum) - (+msg.oldSum)) : (+msg.sum);\n    const clientAmount = msg.payload[0].client && parseFloat(msg.payload[0].client.replace(/,/g, '')) !== 0 ? (parseFloat(msg.payload[0].client.replace(/,/g, '')) + totalSum) : (+msg.sum);\n    const newDifference = msg.payload[0].customer ? (clientAmount - parseFloat(msg.payload[0].customer.replace(/,/g, ''))) : (clientAmount - 0);\n\n    data = {\n        \"client\": new Intl.NumberFormat('en-US').format(clientAmount),\n        \"customer\": msg.payload[0].customer ? msg.payload[0].customer : '0',\n        \"difference\": new Intl.NumberFormat('en-US').format(newDifference)\n    }\n}\n\nif (msg.type === \"Підрядник\") {\n    let totalSum = msg.sum !== msg.oldSum ? ((+msg.sum) - (+msg.oldSum)) : (+msg.sum);\n        \n    const customerAmount = msg.payload[0].customer && parseFloat(msg.payload[0].customer.replace(/,/g, '')) !== 0 ? (parseFloat(msg.payload[0].customer.replace(/,/g, '')) + totalSum) : (+msg.sum);\n    const newDifference = msg.payload[0].client ? (parseFloat(msg.payload[0].client.replace(/,/g, '')) - customerAmount) : (0 - customerAmount);\n         \n    data = {\n        \"client\": msg.payload[0].client ? msg.payload[0].client : '0',\n        \"customer\": new Intl.NumberFormat('en-US').format(customerAmount),\n        \"difference\": new Intl.NumberFormat('en-US').format(newDifference)\n    }\n}\nnode.warn(data)\nmsg.payload = {\n    $set: {\n        ...data,\n        updatedAt: global.get(\"convert_date\")\n    }\n}\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -10237,30 +10352,6 @@
             [
                 "697bf9f3871fd9e6",
                 "956201174fa905ba"
-            ]
-        ]
-    },
-    {
-        "id": "76f7a6644dcdf9cf",
-        "type": "array-loop",
-        "z": "2fce404005fef31a",
-        "g": "af30c153e4a2f931",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1340,
-        "y": 280,
-        "wires": [
-            [
-                "c53b7c709cec0285"
-            ],
-            [
-                "e3b0f976b7fab6da",
-                "c53b7c709cec0285"
             ]
         ]
     },
@@ -10580,29 +10671,6 @@
         "wires": [
             [
                 "957d28afb3f19e52"
-            ]
-        ]
-    },
-    {
-        "id": "c075181840f4b270",
-        "type": "array-loop",
-        "z": "2fce404005fef31a",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1380,
-        "y": 2020,
-        "wires": [
-            [
-                "acd88e5ce330660b"
-            ],
-            [
-                "aa9a98b4c20830a8",
-                "acd88e5ce330660b"
             ]
         ]
     },
@@ -11298,6 +11366,70 @@
         "operation": "delete",
         "x": 520,
         "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "76f7a6644dcdf9cf",
+        "type": "array-loop",
+        "z": "2fce404005fef31a",
+        "g": "af30c153e4a2f931",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1340,
+        "y": 280,
+        "wires": [
+            [
+                "c53b7c709cec0285"
+            ],
+            [
+                "e3b0f976b7fab6da",
+                "c53b7c709cec0285"
+            ]
+        ]
+    },
+    {
+        "id": "c075181840f4b270",
+        "type": "array-loop",
+        "z": "2fce404005fef31a",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1380,
+        "y": 2020,
+        "wires": [
+            [
+                "acd88e5ce330660b"
+            ],
+            [
+                "aa9a98b4c20830a8",
+                "acd88e5ce330660b"
+            ]
+        ]
+    },
+    {
+        "id": "851d1cb1e3bb753f",
+        "type": "debug",
+        "z": "2fce404005fef31a",
+        "g": "af30c153e4a2f931",
+        "name": "debug 579",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 100,
         "wires": []
     },
     {
@@ -12704,29 +12836,6 @@
         "l": false
     },
     {
-        "id": "72514d8dfa0cfb1a",
-        "type": "array-loop",
-        "z": "acc787df1bb9a04e",
-        "g": "3767b80692da44bf",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 2960,
-        "y": 100,
-        "wires": [
-            [
-                "996869a33dae8be9"
-            ],
-            [
-                "1cb2116cdf6f4439"
-            ]
-        ]
-    },
-    {
         "id": "1cb2116cdf6f4439",
         "type": "function",
         "z": "acc787df1bb9a04e",
@@ -12822,29 +12931,6 @@
             ]
         ],
         "l": false
-    },
-    {
-        "id": "3c1fe1e925b52a2b",
-        "type": "array-loop",
-        "z": "acc787df1bb9a04e",
-        "g": "3767b80692da44bf",
-        "name": "",
-        "key": "count2",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array2",
-        "arrayType": "msg",
-        "x": 3230,
-        "y": 180,
-        "wires": [
-            [
-                "72514d8dfa0cfb1a"
-            ],
-            [
-                "5eabb50d68265a27"
-            ]
-        ]
     },
     {
         "id": "1914b80f20bb4ccc",
@@ -13370,29 +13456,6 @@
         "x": 1110,
         "y": 1100,
         "wires": []
-    },
-    {
-        "id": "9797931c6e2fc458",
-        "type": "array-loop",
-        "z": "acc787df1bb9a04e",
-        "g": "8674d609260a3fc0",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 900,
-        "y": 1100,
-        "wires": [
-            [
-                "c715b366f1828723"
-            ],
-            [
-                "556530fbb67892a0"
-            ]
-        ]
     },
     {
         "id": "556530fbb67892a0",
@@ -14882,8 +14945,9 @@
         "type": "function",
         "z": "acc787df1bb9a04e",
         "name": "function 684",
-        "func": "msg.collection = 'projects';\nmsg.options = []\n// Задана дата\nfunction convertDateForGant(data) {\n    const originalDate = new Date(data);\n\n    // Функція для додавання ведучого нуля до числа, якщо воно менше 10\n    function addLeadingZero(num) {\n        return num < 10 ? \"0\" + num : num;\n    }\n\n    // Отримання компонентів дати та часу\n    const day = addLeadingZero(originalDate.getUTCDate());\n    const month = addLeadingZero(originalDate.getUTCMonth() + 1);\n    const year = originalDate.getUTCFullYear();\n\n    // Форматування результату\n    const formattedDate = day + \".\" + month + \".\" + year;\n    return formattedDate\n}\n\n\nif (JSON.parse(msg.payload.status)) msg.options.push({ \"status\": JSON.parse(msg.payload.status) }) \nif (JSON.parse(msg.payload.isOncriticalPath)) msg.options.push({ \"isOncriticalPath\": JSON.parse(msg.payload.isOncriticalPath)}) \nif (JSON.parse(msg.payload.performer)) msg.options.push({ \"performer\": JSON.parse(msg.payload.performer)}) \nif (JSON.parse(msg.payload.startDate)) msg.options.push({ \"startDate\": convertDateForGant(JSON.parse(msg.payload.startDate))}) \nif (JSON.parse(msg.payload.deadline)) msg.options.push({ \"deadline\": convertDateForGant(JSON.parse(msg.payload.deadline))}) \n\nmsg.payload = {\n    _id: objectid(msg.req.query._id)\n    // _id: objectid(\"65aa7a60805aa511000008d4\")\n}\n\nmsg.projection = {\n    template: 1\n};\nreturn msg;",
+        "func": "msg.collection = 'projects';\nmsg.options = []\n\nfunction convertDateForGant(data) {\n    const originalDate = new Date(data);\n\n    function addLeadingZero(num) {\n        return num < 10 ? \"0\" + num : num;\n    }\n\n    const day = addLeadingZero(originalDate.getUTCDate());\n    const month = addLeadingZero(originalDate.getUTCMonth() + 1);\n    const year = originalDate.getUTCFullYear();\n\n    const formattedDate = day + \".\" + month + \".\" + year;\n    return formattedDate\n}\n\n\nif (JSON.parse(msg.payload.status)) msg.options.push({ \"status\": JSON.parse(msg.payload.status) }) \nif (JSON.parse(msg.payload.isOncriticalPath)) msg.options.push({ \"isOncriticalPath\": JSON.parse(msg.payload.isOncriticalPath)}) \nif (JSON.parse(msg.payload.performer)) msg.options.push({ \"performer\": JSON.parse(msg.payload.performer)}) \nif (JSON.parse(msg.payload.startDate)) msg.options.push({ \"startDate\": convertDateForGant(JSON.parse(msg.payload.startDate))}) \nif (JSON.parse(msg.payload.deadline)) msg.options.push({ \"deadline\": convertDateForGant(JSON.parse(msg.payload.deadline))}) \n\nmsg.payload = {\n    _id: objectid(msg.req.query._id)\n    // _id: objectid(\"65aa7a60805aa511000008d4\")\n}\n\nmsg.projection = {\n    template: 1\n};\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -14925,8 +14989,9 @@
         "type": "function",
         "z": "acc787df1bb9a04e",
         "name": "function 686",
-        "func": "function convertDateForCompare(data) {\n    const dateString = data;\n    const dateMatch = dateString.match(/(\\d{2})\\.(\\d{2})\\.(\\d{4})/);\n\n    if (dateMatch) {\n        // Форматування дати: \"DD.MM.YYYY\"\n        const formattedDate = `${dateMatch[3]}-${dateMatch[2]}-${dateMatch[1]}`;\n        return new Date(formattedDate);\n    }\n\n    // Якщо формат дати не вдалося розпізнати\n    return null;\n}\n\n\nfunction filterArr(arr, options) {\n    return arr.filter(task => {\n        return options.every(option => {\n            const optionKey = Object.keys(option)[0];\n            const optionValue = option[optionKey];            \n            \n            if (optionKey === \"performer\" && task.performer) {\n                return task.performer == optionValue;\n            }    \n            if (optionKey === \"startDate\" && task.startDate) {\n                const taskStartDate = convertDateForCompare(task.startDate);\n                const optionDate = convertDateForCompare(optionValue);\n\n                // Порівняння дат, не враховуючи час\n                return taskStartDate && optionDate && taskStartDate.toISOString().split('T')[0] >= optionDate.toISOString().split('T')[0];\n            }\n            if (optionKey === \"deadline\" && task.deadline) {\n                const taskEndDate = convertDateForCompare(task.deadline);\n                const optionDate = convertDateForCompare(optionValue);\n                \n                // Порівняння дат, не враховуючи час\n                return taskEndDate && optionDate && taskEndDate.toISOString().split('T')[0] <= optionDate.toISOString().split('T')[0];\n            }\n         \n            return task[optionKey] === optionValue;\n        });\n    });\n}\n\n\nfunction convertDateForGant(time) {\n    // Вхідна рядок з датою та часом\n    const inputDateString = time;\n\n    // Розділити рядок на частини\n    const parts = inputDateString.split(/[\\s,]+/);\n\n    // Розбити частини дати та часу\n    const dateParts = parts[0].split('.');\n    const timeParts = parts[1].split(':');\n\n    // Створити новий об'єкт Date\n    const formattedDate = new Date(Date.UTC(dateParts[2], dateParts[1] - 1, dateParts[0], timeParts[0], timeParts[1], timeParts[2]));\n\n    // Форматувати дату\n    const outputDateString = formattedDate.toISOString();\n    return outputDateString\n}\n\nlet tasks = msg.options.length === 0 ? msg.payload : filterArr(msg.payload, msg.options)\nconst newTasks = []\n\ntasks.map((e, index) => { \nconst dependencies = []\n\n    if (e.dependencies && e.dependencies.length !==0) {\n        e.dependencies.map(dependencie => {\n        dependencies.push(dependencie._id)\n    })}\n    const newTask = {\n        \"start\": convertDateForGant(e.startDate),\n        \"end\": convertDateForGant(e.deadline),\n        \"name\": e.name,\n        \"id\": e._id,\n        \"dependencies\": dependencies,\n        \"type\": \"task\",\n        \"displayOrder\": index + 1   \n    }   \n    newTasks.push(newTask)\n})\n\nmsg.payload = {\n    newTasks\n}\n\nreturn msg;",
+        "func": "function convertDateForCompare(data) {\n    const dateString = data;\n    const dateMatch = dateString.match(/(\\d{2})\\.(\\d{2})\\.(\\d{4})/);\n\n    if (dateMatch) {\n        const formattedDate = `${dateMatch[3]}-${dateMatch[2]}-${dateMatch[1]}`;\n        return new Date(formattedDate);\n    }\n\n    return null;\n}\n\n\nfunction filterArr(arr, options) {\n    return arr.filter(task => {\n        return options.every(option => {\n            const optionKey = Object.keys(option)[0];\n            const optionValue = option[optionKey];            \n            \n            if (optionKey === \"performer\" && task.performer) {\n                return task.performer == optionValue;\n            }    \n            if (optionKey === \"startDate\" && task.startDate) {\n                const taskStartDate = convertDateForCompare(task.startDate);\n                const optionDate = convertDateForCompare(optionValue);\n\n                return taskStartDate && optionDate && taskStartDate.toISOString().split('T')[0] >= optionDate.toISOString().split('T')[0];\n            }\n            if (optionKey === \"deadline\" && task.deadline) {\n                const taskEndDate = convertDateForCompare(task.deadline);\n                const optionDate = convertDateForCompare(optionValue);\n                \n                return taskEndDate && optionDate && taskEndDate.toISOString().split('T')[0] <= optionDate.toISOString().split('T')[0];\n            }\n         \n            return task[optionKey] === optionValue;\n        });\n    });\n}\n\n\nfunction convertDateForGant(time) {\n    const inputDateString = time;\n\n    const parts = inputDateString.split(/[\\s,]+/);\n\n    const dateParts = parts[0].split('.');\n    const timeParts = parts[1].split(':');\n\n    const formattedDate = new Date(Date.UTC(dateParts[2], dateParts[1] - 1, dateParts[0], timeParts[0], timeParts[1], timeParts[2]));\n\n    const outputDateString = formattedDate.toISOString();\n    return outputDateString\n}\n\nlet tasks = msg.options.length === 0 ? msg.payload : filterArr(msg.payload, msg.options)\nconst newTasks = []\n\ntasks.map((e, index) => { \nconst dependencies = []\n\n    if (e.dependencies && e.dependencies.length !==0) {\n        e.dependencies.map(dependencie => {\n        dependencies.push(dependencie._id)\n    })}\n    const newTask = {\n        \"start\": convertDateForGant(e.startDate),\n        \"end\": convertDateForGant(e.deadline),\n        \"name\": e.name,\n        \"id\": e._id,\n        \"dependencies\": dependencies,\n        \"type\": \"task\",\n        \"displayOrder\": index + 1   \n    }   \n    newTasks.push(newTask)\n})\n\nmsg.payload = {\n    newTasks\n}\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -15158,5 +15223,74 @@
         "x": 2350,
         "y": 860,
         "wires": []
+    },
+    {
+        "id": "72514d8dfa0cfb1a",
+        "type": "array-loop",
+        "z": "acc787df1bb9a04e",
+        "g": "3767b80692da44bf",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 2960,
+        "y": 100,
+        "wires": [
+            [
+                "996869a33dae8be9"
+            ],
+            [
+                "1cb2116cdf6f4439"
+            ]
+        ]
+    },
+    {
+        "id": "3c1fe1e925b52a2b",
+        "type": "array-loop",
+        "z": "acc787df1bb9a04e",
+        "g": "3767b80692da44bf",
+        "name": "",
+        "key": "count2",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array2",
+        "arrayType": "msg",
+        "x": 3230,
+        "y": 180,
+        "wires": [
+            [
+                "72514d8dfa0cfb1a"
+            ],
+            [
+                "5eabb50d68265a27"
+            ]
+        ]
+    },
+    {
+        "id": "9797931c6e2fc458",
+        "type": "array-loop",
+        "z": "acc787df1bb9a04e",
+        "g": "8674d609260a3fc0",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 900,
+        "y": 1100,
+        "wires": [
+            [
+                "c715b366f1828723"
+            ],
+            [
+                "556530fbb67892a0"
+            ]
+        ]
     }
 ]

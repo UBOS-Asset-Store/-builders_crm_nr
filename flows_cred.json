@@ -1,0 +1,7 @@
+{
+    "40e92400c5b4fa25": {
+        "user": "${mongoUsername}",
+        "password": "${mongoPassword}"
+    },
+    "6f70f661f167dd24": {}
+}
