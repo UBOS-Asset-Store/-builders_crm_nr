@@ -183,11 +183,13 @@
             "110f980283b587bc",
             "b26cafe18475e3cb",
             "c1c36f3949756248",
-            "306adf550fae80e8"
+            "306adf550fae80e8",
+            "abf73382d789a218",
+            "384f475d0d221b9f"
         ],
-        "x": 34,
+        "x": 14,
         "y": 679,
-        "w": 672,
+        "w": 732,
         "h": 862
     },
     {
@@ -380,7 +382,7 @@
             "ffdbe8cb5092514f"
         ],
         "x": 34,
-        "y": 19,
+        "y": 1979,
         "w": 1672,
         "h": 322
     },
@@ -1291,6 +1293,45 @@
         "h": 182
     },
     {
+        "id": "f8bd16500ff817c8",
+        "type": "group",
+        "z": "c8b39bad946d8ab6",
+        "name": "auth",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "4603e8b0f2c8cea6",
+            "5298959a60afa79b",
+            "da8ab36d1f98e4cc",
+            "9b072ee01ff877c7",
+            "7d7d1f2455e5a6ab",
+            "9e3e23c56d42615c",
+            "14c594f02589ee3e",
+            "8bb36902470d4712",
+            "261e2629f533416d",
+            "2a93e9dfa735553f",
+            "71b40ed3278e2c78",
+            "18aae7344f5398ad",
+            "30e4826204af376f",
+            "df6a8b4915671e93",
+            "1eec7cde8c2ab990",
+            "9d9afd871166fea9",
+            "4a9a9e4de2c39b4e",
+            "a83002af240aceba",
+            "75f2b248191fa85d",
+            "5b7721a233783a7e",
+            "4dd2566d9bcb5db2",
+            "41a23920c378218b"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 1052,
+        "h": 302
+    },
+    {
         "id": "40e92400c5b4fa25",
         "type": "mongodb",
         "hostname": "${mongoHost}",
@@ -1576,6 +1617,7 @@
         "name": "function 487",
         "func": "//  msg.buffer = msg.req.files[0].buffer\nmsg.path = `/data/fonts1/FixelDisplay-Medium.woff`\n//  msg.payload = msg.req.files[0].buffer\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1665,8 +1707,9 @@
         "z": "c740254358c79788",
         "g": "49efeb2f042463b1",
         "name": "function 488",
-        "func": "//  msg.buffer = msg.req.files[0].buffer\nmsg.path = `/data/fonts1/FixelDisplay-Medium.woff`\n msg.payload = msg.req.files[0].buffer\nreturn msg;",
+        "func": "//  msg.buffer = msg.req.files[0].buffer\nmsg.path = `/data/fonts1/FixelDisplay-Medium.woff`\nmsg.payload = msg.req.files[0].buffer\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1857,7 +1900,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@font-face {\n  font-family: \"Fixel Display\";\n  src: url(\"/fonts\") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n:root {\n  --brand-color: #303d51;\n  --bg-color: #f8f8f8;\n  --modal-bg-color: #8e8e8e;\n  --menu-bg-color: #1d1d1d;\n  --menu-item-color: #292929;\n  --white-color: #ffffff;\n  --agreed-status-color: #8ad66f;\n  --rejected-status-color: #ff3d00;\n  --pending-status-color: #ffc700;\n  --processing-status-color: #605bff;\n  --stage-bg-color: #f3ede4;\n  --section-bg-color: #f9f5f1;\n  --bold-text-color: #222222;\n  --text-color: #787675;\n  --button-bg-color: #f3ede4;\n\n  --main-font: Fixel Display, sans-serif;\n  --secondary-font: Inter, sans-serif;\n}\n\n/* _____________BASE_________________ */\ninput {\n  border-radius: 4px !important;\n}\nbutton {\n  border-radius: 4px !important;\n}\nlabel {\n  border-radius: 4px !important;\n}\n\n\nbody {\n  font-family: var(--main-font);\n  background-color: var(--bg-color) !important;\n}\nsection {\n  background-color: var(--bg-color) !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n\n.ant-table-row-level-0{\n    background-color: #f5eada!important;\n}\n.ant-table-row-level-1{\n   background-color:#F9F5F1!important;\n}\n.ant-table-row-level-2{\n    background-color: #fdfcfc!important;\n}\n.ant-table-thead th:not(:first-child){\n  width:250px!important;\n}\n.ant-table-thead th[title=\"Назва\"]{\n    width:850px!important;\n\n}\n\n.contractInputInModal>div>div>div>div>div>div>span>span textarea {   \n  font-size: 40px !important;\n  border-radius: 4px !important;\n  color: var(--bold-text-color) !important;\n  font-family: var(--main-font) !important; \n  font-weight: 400 !important;\n  line-height: 1.25 !important; /* 125% */\n  letter-spacing: -0.8px !important;\n  padding-bottom: 5px  !important;\n  padding-top: 5px  !important; \n  background-color: transparent !important;\n  /* padding-bottom: 2px !important; */\n}\n\n.contractInputInModal>div>div>div>div>div>div>div>div>div>div>div>span>span textarea::placeholder {\n  color: var( --text-color) !important; \n }\n \n.modalStatusBtn > div > div > div > div > div > button{\n  color: var(----white-color) !important;\n}\n\n.modalSwitchBtn > div > div > div > div > label > span {\n  background-color: var(--brand-color) !important;\n  border: 1px solid var(--brand-color) !important;\n}\n\n.modalSwitchBtn > div > div > div > div > label.t--switch-widget-inactive > span {\n  background-color: #898e95 !important\n}\n\n.editTaskModalDate div{\n  height: 36px !important;\n  \n  }\n\n  .newProjectmodalForm {\n  position: relative !important;\n  width: 100% !important;\n}\n\n.modalInput {\n  position: initial !important;\n  width: 100% !important;\n}\n.modalInputTask {\n  position: initial !important;\nmargin-left: 6px!important;\nwidth: calc(100% - 6px) !important;\n}\n\n.t--widget-selectwidget{\n  /* width: 200px!important; */\n  border-radius: 10px!important;\n}\n.t--widget-formwidget{\n  left:0!important;\n  /* width: 100%!important; */\n}\ndiv[type=\"FORM_WIDGET\"]>div>div>div>div>div>div>div>div>div{\nleft: 0!important;\n}\n.titleInsideModalTabs>div>div>div>div>div>div>div>span {\ncolor: var(--bold-text-color) !important;\nfont-family: var(--main-font) !important;\nfont-size: 20px !important;\nfont-weight: 400 !important;\nline-height: 1.6 !important; /* 160% */\nletter-spacing: -0.4px !important;\n}\n\n.headerText span {\n  font-family: var(--main-font) !important;\n  color: var(--brand-color) !important;\n  font-size: 1.8vw !important;\n  font-style: normal !important;\n  font-weight: 500 !important;\n  line-height: 60px !important;\n  letter-spacing: 0.8px !important;\n}\n.subText span {\n  color: var(--bold-text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 20px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 32px !important;\n  letter-spacing: -0.4px !important;\n}\n.lightText span {\n  color: var(--text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 14px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 24px !important;\n  letter-spacing: -0.28px !important;\n}\n.baseText span {\n  color: var(--bold-text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 14px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 24px !important;\n  letter-spacing: -0.28px !important;\n}\n\n/* _____________HEADER_________________ */\n.sidebar {\n  position: fixed !important;\n  top: 0 !important;\n  left: 0 !important;\n  height: 100vh !important;\n  padding: 0 !important;\n  background-color: var(--menu-bg-color) !important;\n}\n.sidebar > div > div > div > div > div > div > div > div > div > div {\n  height: 100vh !important;\n}\n.accordion{\n  overflow-y: scroll!important;\n}\n.accordion button {\n  background-color: var(--menu-item-color) !important;\n  color: var(--white-color) !important;\n  display: block !important;\n  box-shadow: none !important;\n}\n.accordion button::after {\n  box-shadow: none !important;\n  border: none !important;\n}\n.sidebar_menuWrapper {\n  height: 270px !important;\n  top: calc(100vh - 290px) !important;\n  left: 4px !important;\n}\n.sidebar_menuWrapper .t--widget-buttonwidget {\n  width: 100% !important;\n  left: 4px !important;\n}\n.menuLogo > div> div> div> div> div> div> div> span {\n  font-size: 3vw !important;\n  cursor: pointer !important;\n}\n\n/*__________________Modal________________________ */\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  width: 50% !important;\n  height: 100vh !important;\n  max-height: 100vh !important;\n  right: 0px !important;\n}\n\n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n}\n\n.contractModalInput {\n  position: relative !important;\n  width: 99% !important;\n}\n\n.contractSaveBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.contractSum {\n  width: 42% !important;\n}\n\n.contractSelectFile {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.modalTitle {\n  width: 100% !important;\n}\n\n/* ____________MODAL ADD PROJECT______________________ */\n.sidemenu {\n  width: 50% !important;\n  padding-left: 10px !important;\n  padding-right: 30px !important;\n  height: 100vh !important;\n  background-color: var(--bg-color) !important;\n  max-height: 100vh !important;\n  min-height: 100vh !important;\n  transform: translate3d(0px, 0px, 0px) !important;\n  right: 0px !important;\n}\n.project_tabs div {\n  background-color: transparent !important;\n  \n}\n.project_tabs > div > div > div > div {\n  height: 100vh !important;\n  background-color: transparent !important;\n  border: none !important; \n  overflow: scroll !important; \n  box-shadow: none !important;\n\n}\n.project_tabs > div > div > div > div > div > div .selectedTab{\n  box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(3, 3, 3) 0px 4px 0px inset;\n} \n.sidemenu_img {\n  height: 145px !important;\n  width: 155px !important;\n  \n}\n\n.editTaskModalSelect .bp3-button .dropdown-icon {\n   display: none;\n }\n.listInput .t--widget-containerwidget {\n  background-color: var(--white-color) !important;\n} \n\n/*__________________PROJECTS PAGE________________________ */\n\n.testlistitem {\n  width: calc((100% - 45px) / 2) !important;\n  padding: 0 !important;\n  margin: 0 8px 8px 0 !important;\n  background-color: var(--white-color) !important;\n  border-radius: 8px !important;\n  border: 0.5px solid rgba(120, 118, 117, 0) !important;\n\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) !important;\n  cursor: pointer !important;\n}\n.testlistitem .bp3-ui-text{\n  cursor: inherit !important;}\n  \n.testlistitem div {\n  padding: 0 !important;\n  cursor: pointer !important;\n}\n\n.testlistitem .canvas > button {\n  display: none !important;\n}\n\n.testlist .custom-wrapper-canvas-list {\n  display: flex !important;\n  flex-direction: row !important;\n  overflow-x: hidden !important;\n  flex-wrap: wrap !important;\n  align-content: flex-start !important;\n  justify-content: flex-start !important;\n  align-items: center !important;\n  column-gap: 24px !important;\n}\n\n.testlist .bp3-icon-plus {\n  display: none !important;\n}\n.list_itemImg > div > div > div > div > div > div > div {\n  border-radius: 0 8px 8px 0 !important;\n  \n}\n.list_itemImg {\n  left: calc(100% - 200px) !important;\n  top: 0px !important;\n  height: 200px !important;\n  width: 200px !important;\n  \n}\n.list_itemImg > div > div > div > div > div > div > div img {\n  display: block !important; \n  overflow: hidden !important;\n  border-radius: 0 8px 8px 0 !important;\n}\n.list_itemDate {\n  top: 159px !important;\n  padding-left: 8px !important;\n}\n\n.list_itemTitle {\n  padding-left: 8px !important;\n}\n.list_itemSubtitle {\n  padding-left: 8px !important;\n}\n\n/*Modal new Task*/\n\n.taskStatus>div>div>div>div>div>div>div>span {\n  background-color: var(--agreed-status-color) !important;\n  border-radius: 4px !important;\n  padding-top: 4px !important;\n  padding-bottom: 4px !important;\n}\n\n.taskStatusDone>div>div>div>div>div>div>div>span {\nbackground-color: var(--agreed-status-color) !important}\n\n.taskStatusInProgress>div>div>div>div>div>div>div>span {\n  background-color:  var(--processing-status-color) !important\n  }\n\n.documentStatusInModal>div>div>div>div>div>div>div {\n  border-radius: 4px !important;\n}\n\n.documentStatusInModalPending>div>div>div>div>div>div>div {\n  background-color: var(--pending-status-color) !important;\n} \n\n.documentStatusInModalRejected>div>div>div>div>div>div>div {\n  background-color: var(--rejected-status-color) !important;\n}\n\n.documentStatusInModalDone>div>div>div>div>div>div>div {\n  background-color: var(--agreed-status-color) !important;\n}\n\n.documentStatusInModalInProgress>div>div>div>div>div>div>div {\n  background-color: var(--processing-status-color) !important;\n}\n\n.inputInModal>div>div>div>div>div>div>span>span textarea {\n  /* width: 100%!important; */\n  border-radius: 4px !important;\n  color: var( --text-color) !important;\n  font-family: var(--main-font) !important;\n  font-size: 25px !important;\n  font-weight: 400 !important;\n  line-height: 1.25 !important; /* 125% */\n  letter-spacing: -0.8px !important;\n  padding-bottom: 5px  !important;\n  padding-top: 5px  !important; \n  background-color: transparent !important;\n}\n\n\n.inputInModal>div>div>div>div>div>div>div>div>div>div>div>span>span textarea::placeholder {\n  color: var( --text-color) !important; \n }\n\n.newTaskTabTitle>div>div>div>div>div{\n  color: #888583  !important;\n  font-family: Fixel Display  !important;\n  font-size: 20px  !important;\n  font-style: normal  !important;\n  font-weight: 400  !important;\n  line-height: 1.6  !important; /* 160% */\n  letter-spacing: -0.4px  !important;\n}\n\n.titleInsideTab {\ncolor: var(--bold-text-color) !important;\nfont-family: var(--main-font) !important;\nfont-size: 20px !important;\nfont-weight: 400 !important;\nline-height: 1.6 !important; /* 160% */\nletter-spacing: -0.4px !important;\n}\n\n.lastPage .t--list-widget-next-page {\n    display: none !important;\n}\n\n.filesList >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div{\n  cursor: initial !important;\n}\n\n.listDisableCursor >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div{\n  cursor: initial !important;\n}\n\n.filesList div.t--widget-containerwidget {\n  width: 100%  !important;\n}\n\n.relatedTasksManyModalList div.t--widget-containerwidget {\n  width: 99%  !important;\n}\n\n.editContractArchiveBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.editContractSaveBtn {\n  left: unset !important;\n  right: 140px !important;\n}\n\n\n.containerInsideContractModalTab{\n  width: 100% !important;\n  left: 0 !important;\n}\n\n.chooseContractInModalContainer{\n  width: 100% !important;\n}\n\n.addContractInModalBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.chooseContractInputInModal {\n    width: 80% !important;\n\n}\n\n.wrapperInsideModalTab {\n  width: 100% !important;\n\n}\n\n.addBtnInContractModalTab {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.summaryInContractModalTitle {\n  position: relative !important;\n}\n\n.summaryChildsWrapperInContractModal{\n  width: 100% !important;\n}\n\n.summaryChildsWrapperInContractModal > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  display: flex !important;\n  justify-content: space-between !important;\n}\n\n.summaryChildInContractModal {\n  position: initial !important;\n}\n\n\n\n.editTaskAddBtn {\n  left: unset !important;\n  right: 9px !important;\n}\n\n.managerTableInModal {\n  width: 100% !important;\n  left: 0px !important;\n    top: 0px !important;\n}\n\n.managerTableInModal > div > div > div > div > .tableWrap {\n    width: 100% !important;\n}\n\n.managerTableInModal > div > div > div > div > .tableWrap > div {\n    width: 100% !important;\n}\n\n.managerTableInModal > div> div> div> div> div> div {\n    width: 100% !important; \n}\n\ndiv#tablefi106314hv > div > div > div > div > div {\n  align-items: center !important; \n}\n\n.managerTableInModal > div> div> div> div> div > div> div> div> {\n  align-items: center !important;\n}\n\n.managerTableInModal >div>div>div>div >div>div>div>div{\n  width: 100%!important;\n  overflow: hidden !important; \n  margin: 0 !important;\n}\n.eCoODg{\n  width: 100%!important;\n}\n.managerTableWrapperInModal {\n  width: 100% !important; \n  position: initial !important;\n  \n\n}\n\n.newProjectModalInTabWrapper {\n  width: 100% !important;\n}\n\n.setWidthHundredPercent {\n  width: 100% !important;\n}\n.setWidthHundredPercentUsers {\n  width:96.9% !important;\n}\n.setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyNinePercent {\n  width: 99% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n}\n\n.setWidthNinetyEightPercent {\n  width: 98% !important;\n}\n\n.setWidthNinetyEightPercentSecondVersion {\n  width: 98.9% !important;\n \n}\n.setWidthNinetyEightPercentSecondVersion .bp3-button {\n  \n  background-color: transparent!important;\n}\n.setWidthHundredPercentUsers .bp3-button {\n  border-radius: 0px!important;\n  background-color: transparent!important;\n}\n.setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnLeft {  \n  left: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n}\n\n.setBtnAlmostLeft {  \n  left: 10px !important;\n}\n\n.setLeftSix {  \n  left: 6px !important;\n}\n.setLeftNane{  \n  left: 9px !important;\n}\n\n.setLeftMarginMinus {  \n  margin-left: -20px !important;\n}\n.setLeftMarginMinusTwo {  \n  margin-left: -14px !important;\n}\n.newProjectModalTabs {\n  cursor: pointer !important\n}\n\n.newProjectModalTabs div{\n  cursor: pointer !important\n}\n\n.saveTaskChangesBtn {\n  left: unset !important;\n  right: 172px !important;\n}\n\n.project_tabs_HideScroll > div > div > div > div {\n  overflow: hidden  !important;   \n\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItemWrapperSetGap > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  gap: 10px !important;\n }\n\n\n.modalListItemWrapperAlignEvenly > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-evenly !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n\n.setFlexGrow {\n  flex-grow: 1 !important;\n}\n\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n  /* width: 238px!important; */\n}\n.modalListThirdItem {\n  order: 3 !important;\n  /* margin-left: 0px!important; */\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.modalListSixItem {\n  order: 6 !important;\n}\n.text_manager{\n  width: 99%!important;\n}\n\n.setDisplayFlexColumn > div > div > div > div > div > div > div > div > div > div > div > div > div{\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: center !important;\n}\n\n\ndiv[id=\"wk9dn7snq0\"]{\ntop:260px !important;\nleft: 0px !important;\n}\ndiv[id=\"6ab8rriixd\"]{\n  top:495px !important;\nleft: 0px !important;\n}\ndiv[id=\"50gg59nmwp\"]{\n    top:495px !important;\nleft: 0px !important;\n}\n\n.main_tableTwo  {\n width: 96.9%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n\n  height: 20px!important;\n}\n\n\n.editTaskSelectFile {\n  left: unset !important;\n  right: -2px !important;\n}\n\n.setLeftFive {\n  left: 5px !important;\n}\n\n.editTaskModal_FilesListWrapper {\n  left: -5px !important;\n  width: calc(100% + 5px) !important;\n}\n\n.editTaskModal_SummaryWrapper {\n  left: -10px !important;\n  width: calc(100% + 10px) !important;\n}\n\ndiv.t--widget-containerwidget div.editTaskModal_FilesListWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.project_tabs div.editTaskModal_SummaryWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.editTaskModal_ContractListItemWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.editTaskModal_ContractListItemWrapper > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editTaskModal_SummaryTitle {\n    left: -2px !important;\n\n}\n\n.editTaskModal_secondListItemWidth {\n  width: 238px !important;\n}\n\n.editTaskModal_thirdListItemWidth {\n  margin-left: 0 !important;\n}\n\n.editTaskModal_SelectCustomerWrapper {\n left: 0px !important;\n width: 100.4% !important;\n}\n.editTaskModal_SelectClientWrapper {\n  left: 0px !important;\n width: 100.4% !important;\n}\n\n.editTaskModal_ContractListItemWrapper {\n  left: 0 !important;\n  width: calc(100% + 6px) !important;\n}\n\n.editTaskModal_ContractList {\n  width: 100% !important;\n  left: 2px !important;\n}\n\n.editUserModal_userName {\n  padding-left: 12px !important;\n}\n\n.editUserModal_userNameWrapper {\n  width: calc(100% - 3px) !important;\n}\n\n.createNewProjectBtn {\n  left: unset !important;\n  right: 16px !important;\n}\n\n.setLeftTwo {\n  left: 2px !important;\n}\n\n.editTaskModal_filesTableHeader {\n  left: -3px !important;\n}\n\n.editTaskModal_filesList{\n  left: -3px !important;\n  width: calc(100% + 6px) !important;\n}\n\n.editTaskModal_SummaryMainWrapper {\n  left: 2px !important;\n}\n\n.editTaskModal_proccessLength {\n  left: 3px !important;\n  width: 96% !important;\n}\n\n.editTaskModal_performerWrapper {\n  padding-left: 0 !important;\n}\n\n.editTaskModal_selectPerformer {\n left: 0px !important;\n }\n\n .editTaskModal_groupInput {\n left: 3px !important;\n }\n\n.editTaskModal_chooseDependenciesWrapper {\n  left: -5px !important;\n  width: 100% !important;\n}\n\n.editTaskModal_contractListContractName > div > div > div > div > div > div > div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.addContractToManyTasksModal_contactListItemWrapper {\n  left: 0px !important;\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n.widthInput{\n  width: 230px!important;\n}\n.bp3-control {\n  font-size: 12px!important;\n}\n\n.widgetCheck{\n \n    border-radius: 4px !important;\n    background-color: #F3EDE4 !important;\n}\n.widgetCheck > div > div > div > div span {\n  background-color:transparent !important;\n}\n\n\n.addContractToManyTasksModal_contactList {\n  left: 4px !important;\n}\n\n.addContractToManyTasksModal_title {\n  left: 4px !important;\n}\n\n.addContractToManyTasksModal_goBackBtn {\n  left: 8px !important;\n}\n\n.addContractToManyTasksModal_tasksListHeaderFirstItem {\n  padding-left: 7px !important;\n}\n\n.addContractToManyTasksModal_tasksListItemWrapper {\n  left: 0px !important;\n}\n\n.addContractToManyTasksModal_tasksList {\n  width: 98% !important;\n  left: 4px !important;\n}\n\n.newContractModal_saveBtn {\n  left: unset !important;\n  right: 2px !important;\n}\n\n.newContractModal_counterpartySumWrapper {\n  left: 5px !important;\n}\n\n.newContractModal_tabTitle {\n  left: 2px !important;\n}\n\n.newContractModal_filesTableHeader {\n  left: -3px !important;\n}\n\n\n.newContractModal_FilesListWrapper {\n  left: -5px !important;\n  width: calc(100% + 4px) !important\n}\n\n.newContractModal_FilesList {\n  width: calc(100% + 12px) !important;\n    left: -8px !important;\n}\n\ndiv.t--widget-containerwidget div.newContractModal_FilesListWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_ArchiveBtn {\n  right: 2px !important;\n}\n\n.editContractModal_tabTitle {\n  left: -4px !important;\n}\n\n.editContractModal_filesTableHeader {\n  left: -8px !important;\n}\n\n.editContractModal_filesList {\n  left: -8px !important;\n  width: calc(100% + 10px) !important;\n}\n\ndiv.editContractModal_filesList div.modalListItemWrapper  {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_FilesListItemWrapper {\n  left: 0px !important;\n  /* width: calc(100% + 4px) !important */\n}\n\n.editContractModal_relatedContractsWrapper {\n  margin-left: -10px;\n  width: calc(100% + 15px) !important;\n}\n\n\n\ndiv.t--widget-containerwidget div.editContractModal_FilesListItemWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_costsMainWrapper {\n  left: -3px !important;\n}\n\n.editContractModal_costsTitle {\n  left: -5px !important;\n}\n\n.editContractModal_addRelatedTaskWrapper {\n  margin-left: -1px !important;\n  width: 100.6% !important;\n}\n\n.editContractModal_addRelatedTaskTitle {\n    left: -4px !important;\n\n}\n\n.editContractModal_selectRelatedTaskWrapper {\n  margin-left: -8px !important;\n  width: calc(100% + 10px) !important;\n  padding-right: 0 !important;\n}\n\n.editContractModal_relatedTaskList {\n  left: 0 !important;\n}\n\n.editContractModal_relatedTaskListItem {\n  width: 100% !important;\n}\n\ndiv.editContractModal_relatedTaskList div.editContractModal_relatedTaskListItem {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n\n.editContractModal_summaryWrapper {\n  width: 100% !important;\n \n}\n\n.editContractModal_relatedTasksMainWrapper {\n  width: calc(100% + 28px) !important;\n   margin-left: -18px !important;\n}\n\n.editContractModal_relatedContractsTitleWrapper { \n   margin-left: -12px !important;\n}\n\n.editContractModal_chooseRelatedContractWrapper { \n   margin-left: -10px !important;\n  width: calc(100% + 15px) !important;\n}\n\n.editContractModal_relatedContractsHeaderWrapper { \n   left: 0 !important;\n}\n\n.editContractModal_relatedContractsList { \n  left: -3px !important;\n  width: calc(100% + 10px) !important;\n}\n\n.editContractModal_relatedContractsListItem { \n  left: -4px !important;\n  width: calc(100% + 4px) !important;\n}\n\ndiv.editContractModal_relatedContractsList div.editContractModal_relatedContractsListItem {\n   background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.project_tabs div.editContractModal_summaryWrapper {\n   background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\nspan.bp3-popover-target >div{\n height: 36px!important;\n}\n.selectClientName{\n  left: -4px !important;\n}\n .hideActionBtnsInNestedTable div.ant-table-wrapper + div {\n  display: none !important;\n} \n\n\n\n.structureGantBtnGroup {\n  /* border: 1px solid #8E8E8E !important; */\n  left: 6px;\n}\n\ndiv.structureGantBtnGroup div.t--buttongroup-widget button:first-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 4px 0px 0px 4px !important;\n}\n\ndiv.structureGantBtnGroup div.t--buttongroup-widget button:last-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 0px 4px 4px 0px !important;\n}\n\n.gantDataFormatBtnGroup {\n  left: 325px;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:first-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 4px 0px 0px 4px !important;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:nth-child(2) {\n  border: 0.5px solid #787675 !important; \n  border-radius: 0 !important;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:last-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 0px 4px 4px 0px !important;\n}\n\n.structureTable {\n  left: -3px !important;\n}\n\ndiv.project_tabs div.structureTable {\n  left: -3px !important;\n}\n\n.gantTable {\n  left: -3px !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div:first-child {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg > g{\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg > g > rect{\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody > g.rows {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody > g.rows rect {\n  width: 100% !important;\n}\n\n.teamPage_title {\n  left: 13px !important;\n}",
+        "template": "@font-face {\n  font-family: \"Fixel Display\";\n  src: url(\"/fonts\") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n:root {\n  --brand-color: #303d51;\n  --bg-color: #f8f8f8;\n  --modal-bg-color: #8e8e8e;\n  --menu-bg-color: #1d1d1d;\n  --menu-item-color: #292929;\n  --white-color: #ffffff;\n  --agreed-status-color: #8ad66f;\n  --rejected-status-color: #ff3d00;\n  --pending-status-color: #ffc700;\n  --processing-status-color: #605bff;\n  --stage-bg-color: #f3ede4;\n  --section-bg-color: #f9f5f1;\n  --bold-text-color: #222222;\n  --text-color: #787675;\n  --button-bg-color: #f3ede4;\n\n  --main-font: Fixel Display, sans-serif;\n  --secondary-font: Inter, sans-serif;\n}\n\n/* _____________BASE_________________ */\ninput {\n  border-radius: 4px !important;\n}\nbutton {\n  border-radius: 4px !important;\n}\nlabel {\n  border-radius: 4px !important;\n}\n\n\nbody {\n  font-family: var(--main-font);\n  background-color: var(--bg-color) !important;\n}\nsection {\n  background-color: var(--bg-color) !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n\n.ant-table-row-level-0{\n    background-color: #f5eada!important;\n}\n.ant-table-row-level-1{\n   background-color:#F9F5F1!important;\n}\n.ant-table-row-level-2{\n    background-color: #fdfcfc!important;\n}\n.ant-table-thead th:not(:first-child){\n  width:250px!important;\n}\n.ant-table-thead th[title=\"Назва\"]{\n    width:850px!important;\n\n}\n\n.contractInputInModal>div>div>div>div>div>div>span>span textarea {   \n  font-size: 40px !important;\n  border-radius: 4px !important;\n  color: var(--bold-text-color) !important;\n  font-family: var(--main-font) !important; \n  font-weight: 400 !important;\n  line-height: 1.25 !important; /* 125% */\n  letter-spacing: -0.8px !important;\n  padding-bottom: 5px  !important;\n  padding-top: 5px  !important; \n  background-color: transparent !important;\n  /* padding-bottom: 2px !important; */\n}\n\n.contractInputInModal>div>div>div>div>div>div>div>div>div>div>div>span>span textarea::placeholder {\n  color: var( --text-color) !important; \n }\n \n.modalStatusBtn > div > div > div > div > div > button{\n  color: var(----white-color) !important;\n}\n\n.modalSwitchBtn > div > div > div > div > label > span {\n  background-color: var(--brand-color) !important;\n  border: 1px solid var(--brand-color) !important;\n}\n\n.modalSwitchBtn > div > div > div > div > label.t--switch-widget-inactive > span {\n  background-color: #898e95 !important\n}\n\n.editTaskModalDate div{\n  height: 36px !important;\n  \n  }\n\n  .newProjectmodalForm {\n  position: relative !important;\n  width: 100% !important;\n}\n\n.modalInput {\n  position: initial !important;\n  width: 100% !important;\n}\n.modalInputTask {\n  position: initial !important;\nmargin-left: 6px!important;\nwidth: calc(100% - 6px) !important;\n}\n\n.t--widget-selectwidget{\n  /* width: 200px!important; */\n  border-radius: 10px!important;\n}\n.t--widget-formwidget{\n  left:0!important;\n  /* width: 100%!important; */\n}\ndiv[type=\"FORM_WIDGET\"]>div>div>div>div>div>div>div>div>div{\nleft: 0!important;\n}\n.titleInsideModalTabs>div>div>div>div>div>div>div>span {\ncolor: var(--bold-text-color) !important;\nfont-family: var(--main-font) !important;\nfont-size: 20px !important;\nfont-weight: 400 !important;\nline-height: 1.6 !important; /* 160% */\nletter-spacing: -0.4px !important;\n}\n\n.headerText span {\n  font-family: var(--main-font) !important;\n  color: var(--brand-color) !important;\n  font-size: 1.8vw !important;\n  font-style: normal !important;\n  font-weight: 500 !important;\n  line-height: 60px !important;\n  letter-spacing: 0.8px !important;\n}\n.subText span {\n  color: var(--bold-text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 20px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 32px !important;\n  letter-spacing: -0.4px !important;\n}\n.lightText span {\n  color: var(--text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 14px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 24px !important;\n  letter-spacing: -0.28px !important;\n}\n.baseText span {\n  color: var(--bold-text-color) !important;\n  font-family: var(--secondary-font) !important;\n  font-size: 14px !important;\n  font-style: normal !important;\n  font-weight: 400 !important;\n  line-height: 24px !important;\n  letter-spacing: -0.28px !important;\n}\n\n/* _____________HEADER_________________ */\n.sidebar {\n  position: fixed !important;\n  top: 0 !important;\n  left: 0 !important;\n  height: 100vh !important;\n  padding: 0 !important;\n  background-color: var(--menu-bg-color) !important;\n}\n.sidebar > div > div > div > div > div > div > div > div > div > div {\n  height: 100vh !important;\n}\n.accordion{\n  overflow-y: scroll!important;\n}\n.accordion button {\n  background-color: var(--menu-item-color) !important;\n  color: var(--white-color) !important;\n  display: block !important;\n  box-shadow: none !important;\n}\n.accordion button::after {\n  box-shadow: none !important;\n  border: none !important;\n}\n.sidebar_menuWrapper {\n  height: 270px !important;\n  top: calc(100vh - 290px) !important;\n  left: 4px !important;\n}\n.sidebar_menuWrapper .t--widget-buttonwidget {\n  width: 100% !important;\n  left: 4px !important;\n}\n.menuLogo > div> div> div> div> div> div> div> span {\n  font-size: 3vw !important;\n  cursor: pointer !important;\n}\n\n/*__________________Modal________________________ */\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  width: 50% !important;\n  height: 100vh !important;\n  max-height: 100vh !important;\n  right: 0px !important;\n}\n\n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n}\n\n.contractModalInput {\n  position: relative !important;\n  width: 99% !important;\n}\n\n.contractSaveBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.contractSum {\n  width: 42% !important;\n}\n\n.contractSelectFile {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.modalTitle {\n  width: 100% !important;\n}\n\n/* ____________MODAL ADD PROJECT______________________ */\n.sidemenu {\n  width: 50% !important;\n  padding-left: 10px !important;\n  padding-right: 30px !important;\n  height: 100vh !important;\n  background-color: var(--bg-color) !important;\n  max-height: 100vh !important;\n  min-height: 100vh !important;\n  transform: translate3d(0px, 0px, 0px) !important;\n  right: 0px !important;\n}\n.project_tabs div {\n  background-color: transparent !important;\n  \n}\n.project_tabs > div > div > div > div {\n  height: 100vh !important;\n  background-color: transparent !important;\n  border: none !important; \n  overflow: scroll !important; \n  box-shadow: none !important;\n\n}\n.project_tabs > div > div > div > div > div > div .selectedTab{\n  box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(3, 3, 3) 0px 4px 0px inset;\n} \n.sidemenu_img {\n  height: 145px !important;\n  width: 155px !important;\n  \n}\n\n.editTaskModalSelect .bp3-button .dropdown-icon {\n   display: none;\n }\n.listInput .t--widget-containerwidget {\n  background-color: var(--white-color) !important;\n} \n\n/*__________________PROJECTS PAGE________________________ */\n\n.testlistitem {\n  width: calc((100% - 45px) / 2) !important;\n  padding: 0 !important;\n  margin: 0 8px 8px 0 !important;\n  background-color: var(--white-color) !important;\n  border-radius: 8px !important;\n  border: 0.5px solid rgba(120, 118, 117, 0) !important;\n\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) !important;\n  cursor: pointer !important;\n}\n.testlistitem .bp3-ui-text{\n  cursor: inherit !important;}\n  \n.testlistitem div {\n  padding: 0 !important;\n  cursor: pointer !important;\n}\n\n.testlistitem .canvas > button {\n  display: none !important;\n}\n\n.testlist .custom-wrapper-canvas-list {\n  display: flex !important;\n  flex-direction: row !important;\n  overflow-x: hidden !important;\n  flex-wrap: wrap !important;\n  align-content: flex-start !important;\n  justify-content: flex-start !important;\n  align-items: center !important;\n  column-gap: 24px !important;\n}\n\n.testlist .bp3-icon-plus {\n  display: none !important;\n}\n.list_itemImg > div > div > div > div > div > div > div {\n  border-radius: 0 8px 8px 0 !important;\n  \n}\n.list_itemImg {\n  left: calc(100% - 200px) !important;\n  top: 0px !important;\n  height: 200px !important;\n  width: 200px !important;\n  \n}\n.list_itemImg > div > div > div > div > div > div > div img {\n  display: block !important; \n  overflow: hidden !important;\n  border-radius: 0 8px 8px 0 !important;\n}\n.list_itemDate {\n  top: 159px !important;\n  padding-left: 8px !important;\n}\n\n.list_itemTitle {\n  padding-left: 8px !important;\n}\n.list_itemSubtitle {\n  padding-left: 8px !important;\n}\n\n/*Modal new Task*/\n\n.taskStatus>div>div>div>div>div>div>div>span {\n  background-color: var(--agreed-status-color) !important;\n  border-radius: 4px !important;\n  padding-top: 4px !important;\n  padding-bottom: 4px !important;\n}\n\n.taskStatusDone>div>div>div>div>div>div>div>span {\nbackground-color: var(--agreed-status-color) !important}\n\n.taskStatusInProgress>div>div>div>div>div>div>div>span {\n  background-color:  var(--processing-status-color) !important\n  }\n\n.documentStatusInModal>div>div>div>div>div>div>div {\n  border-radius: 4px !important;\n}\n\n.documentStatusInModalPending>div>div>div>div>div>div>div {\n  background-color: var(--pending-status-color) !important;\n} \n\n.documentStatusInModalRejected>div>div>div>div>div>div>div {\n  background-color: var(--rejected-status-color) !important;\n}\n\n.documentStatusInModalDone>div>div>div>div>div>div>div {\n  background-color: var(--agreed-status-color) !important;\n}\n\n.documentStatusInModalInProgress>div>div>div>div>div>div>div {\n  background-color: var(--processing-status-color) !important;\n}\n\n.inputInModal>div>div>div>div>div>div>span>span textarea {\n  /* width: 100%!important; */\n  border-radius: 4px !important;\n  color: var( --text-color) !important;\n  font-family: var(--main-font) !important;\n  font-size: 25px !important;\n  font-weight: 400 !important;\n  line-height: 1.25 !important; /* 125% */\n  letter-spacing: -0.8px !important;\n  padding-bottom: 5px  !important;\n  padding-top: 5px  !important; \n  background-color: transparent !important;\n}\n\n\n.inputInModal>div>div>div>div>div>div>div>div>div>div>div>span>span textarea::placeholder {\n  color: var( --text-color) !important; \n }\n\n.newTaskTabTitle>div>div>div>div>div{\n  color: #888583  !important;\n  font-family: Fixel Display  !important;\n  font-size: 20px  !important;\n  font-style: normal  !important;\n  font-weight: 400  !important;\n  line-height: 1.6  !important; /* 160% */\n  letter-spacing: -0.4px  !important;\n}\n\n.titleInsideTab {\ncolor: var(--bold-text-color) !important;\nfont-family: var(--main-font) !important;\nfont-size: 20px !important;\nfont-weight: 400 !important;\nline-height: 1.6 !important; /* 160% */\nletter-spacing: -0.4px !important;\n}\n\n.lastPage .t--list-widget-next-page {\n    display: none !important;\n}\n\n.filesList >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div{\n  cursor: initial !important;\n}\n\n.listDisableCursor >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div >div{\n  cursor: initial !important;\n}\n\n.filesList div.t--widget-containerwidget {\n  width: 100%  !important;\n}\n\n.relatedTasksManyModalList div.t--widget-containerwidget {\n  width: 99%  !important;\n}\n\n.editContractArchiveBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.editContractSaveBtn {\n  left: unset !important;\n  right: 140px !important;\n}\n\n\n.containerInsideContractModalTab{\n  width: 100% !important;\n  left: 0 !important;\n}\n\n.chooseContractInModalContainer{\n  width: 100% !important;\n}\n\n.addContractInModalBtn {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.chooseContractInputInModal {\n    width: 80% !important;\n\n}\n\n.wrapperInsideModalTab {\n  width: 100% !important;\n\n}\n\n.addBtnInContractModalTab {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.summaryInContractModalTitle {\n  position: relative !important;\n}\n\n.summaryChildsWrapperInContractModal{\n  width: 100% !important;\n}\n\n.summaryChildsWrapperInContractModal > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  display: flex !important;\n  justify-content: space-between !important;\n}\n\n.summaryChildInContractModal {\n  position: initial !important;\n}\n\n\n\n.editTaskAddBtn {\n  left: unset !important;\n  right: 9px !important;\n}\n\n.managerTableInModal {\n  width: 100% !important;\n  left: 0px !important;\n    top: 0px !important;\n}\n\n.managerTableInModal > div > div > div > div > .tableWrap {\n    width: 100% !important;\n}\n\n.managerTableInModal > div > div > div > div > .tableWrap > div {\n    width: 100% !important;\n}\n\n.managerTableInModal > div> div> div> div> div> div {\n    width: 100% !important; \n}\n\ndiv#tablefi106314hv > div > div > div > div > div {\n  align-items: center !important; \n}\n\n.managerTableInModal > div> div> div> div> div > div> div> div> {\n  align-items: center !important;\n}\n\n.managerTableInModal >div>div>div>div >div>div>div>div{\n  width: 100%!important;\n  overflow: hidden !important; \n  margin: 0 !important;\n}\n.eCoODg{\n  width: 100%!important;\n}\n.managerTableWrapperInModal {\n  width: 100% !important; \n  position: initial !important;\n  \n\n}\n\n.newProjectModalInTabWrapper {\n  width: 100% !important;\n}\n\n.setWidthHundredPercent {\n  width: 100% !important;\n}\n.setWidthHundredPercentUsers {\n  width:96.9% !important;\n}\n.setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyNinePercent {\n  width: 99% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n}\n\n.setWidthNinetyEightPercent {\n  width: 98% !important;\n}\n\n.setWidthNinetyEightPercentSecondVersion {\n  width: 98.9% !important;\n \n}\n.setWidthNinetyEightPercentSecondVersion .bp3-button {\n  \n  background-color: transparent!important;\n}\n.setWidthHundredPercentUsers .bp3-button {\n  border-radius: 0px!important;\n  background-color: transparent!important;\n}\n.setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnLeft {  \n  left: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n}\n\n.setBtnAlmostLeft {  \n  left: 10px !important;\n}\n\n.setLeftSix {  \n  left: 6px !important;\n}\n.setLeftNane{  \n  left: 9px !important;\n}\n\n.setLeftMarginMinus {  \n  margin-left: -20px !important;\n}\n.setLeftMarginMinusTwo {  \n  margin-left: -14px !important;\n}\n.newProjectModalTabs {\n  cursor: pointer !important\n}\n\n.newProjectModalTabs div{\n  cursor: pointer !important\n}\n\n.saveTaskChangesBtn {\n  left: unset !important;\n  right: 172px !important;\n}\n\n.project_tabs_HideScroll > div > div > div > div {\n  overflow: hidden  !important;   \n\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItemWrapperSetGap > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  gap: 10px !important;\n }\n\n\n.modalListItemWrapperAlignEvenly > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-evenly !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n\n.setFlexGrow {\n  flex-grow: 1 !important;\n}\n\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n  /* width: 238px!important; */\n}\n.modalListThirdItem {\n  order: 3 !important;\n  /* margin-left: 0px!important; */\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.modalListSixItem {\n  order: 6 !important;\n}\n.text_manager{\n  width: 99%!important;\n}\n\n.setDisplayFlexColumn > div > div > div > div > div > div > div > div > div > div > div > div > div{\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: center !important;\n}\n\n\ndiv[id=\"wk9dn7snq0\"]{\ntop:260px !important;\nleft: 0px !important;\n}\ndiv[id=\"6ab8rriixd\"]{\n  top:495px !important;\nleft: 0px !important;\n}\ndiv[id=\"50gg59nmwp\"]{\n    top:495px !important;\nleft: 0px !important;\n}\n\n.main_tableTwo  {\n width: 96.9%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n\n  height: 20px!important;\n}\n\n\n.editTaskSelectFile {\n  left: unset !important;\n  right: -2px !important;\n}\n\n.setLeftFive {\n  left: 5px !important;\n}\n\n.editTaskModal_FilesListWrapper {\n  left: -5px !important;\n  width: calc(100% + 5px) !important;\n}\n\n.editTaskModal_SummaryWrapper {\n  left: -10px !important;\n  width: calc(100% + 10px) !important;\n}\n\ndiv.t--widget-containerwidget div.editTaskModal_FilesListWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.project_tabs div.editTaskModal_SummaryWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.editTaskModal_ContractListItemWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.editTaskModal_ContractListItemWrapper > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editTaskModal_SummaryTitle {\n    left: -2px !important;\n\n}\n\n.editTaskModal_secondListItemWidth {\n  width: 238px !important;\n}\n\n.editTaskModal_thirdListItemWidth {\n  margin-left: 0 !important;\n}\n\n.editTaskModal_SelectCustomerWrapper {\n left: 0px !important;\n width: 100.4% !important;\n}\n.editTaskModal_SelectClientWrapper {\n  left: 0px !important;\n width: 100.4% !important;\n}\n\n.editTaskModal_ContractListItemWrapper {\n  left: 0 !important;\n  width: calc(100% + 6px) !important;\n}\n\n.editTaskModal_ContractList {\n  width: 100% !important;\n  left: 2px !important;\n}\n\n.editUserModal_userName {\n  padding-left: 12px !important;\n}\n\n.editUserModal_userNameWrapper {\n  width: calc(100% - 3px) !important;\n}\n\n.createNewProjectBtn {\n  left: unset !important;\n  right: 16px !important;\n}\n\n.setLeftTwo {\n  left: 2px !important;\n}\n\n.editTaskModal_filesTableHeader {\n  left: -3px !important;\n}\n\n.editTaskModal_filesList{\n  left: -3px !important;\n  width: calc(100% + 6px) !important;\n}\n\n.editTaskModal_SummaryMainWrapper {\n  left: 2px !important;\n}\n\n.editTaskModal_proccessLength {\n  left: 3px !important;\n  width: 96% !important;\n}\n\n.editTaskModal_performerWrapper {\n  padding-left: 0 !important;\n}\n\n.editTaskModal_selectPerformer {\n left: 0px !important;\n }\n\n .editTaskModal_groupInput {\n left: 3px !important;\n }\n\n.editTaskModal_chooseDependenciesWrapper {\n  left: -5px !important;\n  width: 100% !important;\n}\n\n.editTaskModal_contractListContractName > div > div > div > div > div > div > div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.addContractToManyTasksModal_contactListItemWrapper {\n  left: 0px !important;\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n.widthInput{\n  width: 230px!important;\n}\n.bp3-control {\n  font-size: 12px!important;\n}\n\n.widgetCheck{\n \n    border-radius: 4px !important;\n    background-color: #F3EDE4 !important;\n}\n.widgetCheck > div > div > div > div span {\n  background-color:transparent !important;\n}\n\n\n.addContractToManyTasksModal_contactList {\n  left: 4px !important;\n}\n\n.addContractToManyTasksModal_title {\n  left: 4px !important;\n}\n\n.addContractToManyTasksModal_goBackBtn {\n  left: 8px !important;\n}\n\n.addContractToManyTasksModal_tasksListHeaderFirstItem {\n  padding-left: 7px !important;\n}\n\n.addContractToManyTasksModal_tasksListItemWrapper {\n  left: 0px !important;\n}\n\n.addContractToManyTasksModal_tasksList {\n  width: 98% !important;\n  left: 4px !important;\n}\n\n.newContractModal_saveBtn {\n  left: unset !important;\n  right: 2px !important;\n}\n\n.newContractModal_counterpartySumWrapper {\n  left: 5px !important;\n}\n\n.newContractModal_tabTitle {\n  left: 2px !important;\n}\n\n.newContractModal_filesTableHeader {\n  left: -3px !important;\n}\n\n\n.newContractModal_FilesListWrapper {\n  left: -5px !important;\n  width: calc(100% + 4px) !important\n}\n\n.newContractModal_FilesList {\n  width: calc(100% + 12px) !important;\n    left: -8px !important;\n}\n\ndiv.t--widget-containerwidget div.newContractModal_FilesListWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_ArchiveBtn {\n  right: 2px !important;\n}\n\n.editContractModal_tabTitle {\n  left: -4px !important;\n}\n\n.editContractModal_filesTableHeader {\n  left: -8px !important;\n}\n\n.editContractModal_filesList {\n  left: -8px !important;\n  width: calc(100% + 10px) !important;\n}\n\ndiv.editContractModal_filesList div.modalListItemWrapper  {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_FilesListItemWrapper {\n  left: 0px !important;\n  /* width: calc(100% + 4px) !important */\n}\n\n.editContractModal_relatedContractsWrapper {\n  margin-left: -10px;\n  width: calc(100% + 15px) !important;\n}\n\n\n\ndiv.t--widget-containerwidget div.editContractModal_FilesListItemWrapper {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n.editContractModal_costsMainWrapper {\n  left: -3px !important;\n}\n\n.editContractModal_costsTitle {\n  left: -5px !important;\n}\n\n.editContractModal_addRelatedTaskWrapper {\n  margin-left: -1px !important;\n  width: 100.6% !important;\n}\n\n.editContractModal_addRelatedTaskTitle {\n    left: -4px !important;\n\n}\n\n.editContractModal_selectRelatedTaskWrapper {\n  margin-left: -8px !important;\n  width: calc(100% + 10px) !important;\n  padding-right: 0 !important;\n}\n\n.editContractModal_relatedTaskList {\n  left: 0 !important;\n}\n\n.editContractModal_relatedTaskListItem {\n  width: 100% !important;\n}\n\ndiv.editContractModal_relatedTaskList div.editContractModal_relatedTaskListItem {\n  background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\n\n.editContractModal_summaryWrapper {\n  width: 100% !important;\n \n}\n\n.editContractModal_relatedTasksMainWrapper {\n  width: calc(100% + 28px) !important;\n   margin-left: -18px !important;\n}\n\n.editContractModal_relatedContractsTitleWrapper { \n   margin-left: -12px !important;\n}\n\n.editContractModal_chooseRelatedContractWrapper { \n   margin-left: -10px !important;\n  width: calc(100% + 15px) !important;\n}\n\n.editContractModal_relatedContractsHeaderWrapper { \n   left: 0 !important;\n}\n\n.editContractModal_relatedContractsList { \n  left: -3px !important;\n  width: calc(100% + 10px) !important;\n}\n\n.editContractModal_relatedContractsListItem { \n  left: -4px !important;\n  width: calc(100% + 4px) !important;\n}\n\ndiv.editContractModal_relatedContractsList div.editContractModal_relatedContractsListItem {\n   background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\n\ndiv.project_tabs div.editContractModal_summaryWrapper {\n   background-color: var(--white-color) !important;\n  border-radius: 4px !important;\n  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10) !important;\n}\nspan.bp3-popover-target >div{\n height: 36px!important;\n}\n.selectClientName{\n  left: -4px !important;\n}\n .hideActionBtnsInNestedTable div.ant-table-wrapper + div {\n  display: none !important;\n} \n\n\n\n.structureGantBtnGroup {\n  /* border: 1px solid #8E8E8E !important; */\n  left: 6px;\n}\n\ndiv.structureGantBtnGroup div.t--buttongroup-widget button:first-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 4px 0px 0px 4px !important;\n}\n\ndiv.structureGantBtnGroup div.t--buttongroup-widget button:last-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 0px 4px 4px 0px !important;\n}\n\n.gantDataFormatBtnGroup {\n  left: 325px;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:first-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 4px 0px 0px 4px !important;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:nth-child(2) {\n  border: 0.5px solid #787675 !important; \n  border-radius: 0 !important;\n}\n\ndiv.gantDataFormatBtnGroup div.t--buttongroup-widget button:last-child {\n  border: 0.5px solid #787675 !important;\n  border-radius: 0px 4px 4px 0px !important;\n}\n\n.structureTable {\n  left: -3px !important;\n}\n\ndiv.project_tabs div.structureTable {\n  left: -3px !important;\n}\n\n.gantTable {\n  left: -3px !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div:first-child {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg > g{\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > svg > g > rect{\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody > g.rows {\n  width: 100% !important;\n}\n\ndiv.gantTable > div > div > div > div > div > div > div > svg > g.grid > g.gridBody > g.rows rect {\n  width: 100% !important;\n}\n\n.teamPage_title {\n  left: 13px !important;\n}\n\n.reg_tab {\n  height: 100vh !important;\n  width: 100vw !important;\n}\n\n.reg_form {\n  left: 210px !important;\n}",
         "output": "str",
         "x": 280,
         "y": 80,
@@ -2155,7 +2198,8 @@
         "y": 720,
         "wires": [
             [
-                "fe134326442270d0"
+                "fe134326442270d0",
+                "384f475d0d221b9f"
             ]
         ]
     },
@@ -3435,7 +3479,7 @@
         "upload": true,
         "swaggerDoc": "",
         "x": 130,
-        "y": 280,
+        "y": 2240,
         "wires": [
             [
                 "96ddd1fd107d0fb1"
@@ -3461,7 +3505,7 @@
             }
         ],
         "x": 340,
-        "y": 260,
+        "y": 2220,
         "wires": [
             [
                 "789c8b4acff2f6b7"
@@ -3482,7 +3526,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 260,
+        "y": 2220,
         "wires": [
             [
                 "f44a8595ea0bcb12"
@@ -3501,7 +3545,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 610,
-        "y": 260,
+        "y": 2220,
         "wires": [
             [
                 "e658de794a3c71fb"
@@ -3531,7 +3575,7 @@
             }
         ],
         "x": 750,
-        "y": 260,
+        "y": 2220,
         "wires": [
             [
                 "8c1b30db3408fa4f"
@@ -3552,7 +3596,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 110,
-        "y": 180,
+        "y": 2140,
         "wires": [
             [
                 "32f2fb7d2d4e6a4f"
@@ -3569,7 +3613,7 @@
         "statusCode": "",
         "headers": {},
         "x": 530,
-        "y": 180,
+        "y": 2140,
         "wires": []
     },
     {
@@ -3586,7 +3630,7 @@
         "finalize": "",
         "libs": [],
         "x": 250,
-        "y": 180,
+        "y": 2140,
         "wires": [
             [
                 "ae7478b0efa0f670"
@@ -3612,7 +3656,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 400,
-        "y": 180,
+        "y": 2140,
         "wires": [
             [
                 "18757ce4ce343bab"
@@ -3628,7 +3672,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1230,
-        "y": 180,
+        "y": 2140,
         "wires": []
     },
     {
@@ -3650,7 +3694,7 @@
             }
         ],
         "x": 1100,
-        "y": 180,
+        "y": 2140,
         "wires": [
             [
                 "e30c726e83877e71"
@@ -3680,7 +3724,7 @@
             }
         ],
         "x": 310,
-        "y": 100,
+        "y": 2060,
         "wires": [
             [
                 "7276ef91a4fcfbba"
@@ -3710,7 +3754,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 140,
-        "y": 60,
+        "y": 2020,
         "wires": [
             [
                 "c77f1cb54c3e7637"
@@ -3732,7 +3776,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 450,
-        "y": 100,
+        "y": 2060,
         "wires": []
     },
     {
@@ -3749,7 +3793,7 @@
         "finalize": "",
         "libs": [],
         "x": 235,
-        "y": 280,
+        "y": 2240,
         "wires": [
             [
                 "1e91697ac2db3998"
@@ -3769,7 +3813,7 @@
         "statusCode": "",
         "headers": {},
         "x": 330,
-        "y": 300,
+        "y": 2260,
         "wires": []
     },
     {
@@ -3786,7 +3830,7 @@
         "finalize": "",
         "libs": [],
         "x": 930,
-        "y": 300,
+        "y": 2260,
         "wires": [
             [
                 "b1a0dbb265b01eb0"
@@ -3802,7 +3846,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1110,
-        "y": 300,
+        "y": 2260,
         "wires": []
     },
     {
@@ -3819,7 +3863,7 @@
         "finalize": "",
         "libs": [],
         "x": 910,
-        "y": 220,
+        "y": 2180,
         "wires": [
             [
                 "7f716983a77c86a6"
@@ -3852,7 +3896,7 @@
             }
         ],
         "x": 1130,
-        "y": 240,
+        "y": 2200,
         "wires": [
             [
                 "39af801020f87f81"
@@ -3871,7 +3915,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1320,
-        "y": 240,
+        "y": 2200,
         "wires": [
             [
                 "22b08a1354cd7157"
@@ -3897,7 +3941,7 @@
             }
         ],
         "x": 1480,
-        "y": 240,
+        "y": 2200,
         "wires": [
             [
                 "3ec27d1aa2132072"
@@ -3913,7 +3957,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1630,
-        "y": 240,
+        "y": 2200,
         "wires": []
     },
     {
@@ -3955,6 +3999,7 @@
         "name": "check jwt",
         "func": "msg.check = msg.payload;\nconst decoded = jwt.verify(msg.payload.token, 'test');\nnode.warn(decoded)\nmsg.payload = decoded\n\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4030,6 +4075,7 @@
         "name": "check",
         "func": "msg.collection = \"admins\"\nmsg.fromApp = msg.payload\nmsg.payload = {\n    _id: objectid(msg.payload.user_id),\n    deleted:false\n}\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -4195,10 +4241,602 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 100,
+        "y": 2060,
         "wires": [
             [
                 "c77f1cb54c3e7637"
+            ]
+        ]
+    },
+    {
+        "id": "4603e8b0f2c8cea6",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "check user",
+        "func": "if (msg.payload.length > 0) {\n    msg.statusCode = 409;\n    msg.payload = {\n        data: `User with this email \"${msg.oldpayload.email}\" already exists!`,\n        statusCode: 409\n    };\n    \n    return [msg, null]\n} else {\n    return [null, msg]\n}\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "7d7d1f2455e5a6ab"
+            ],
+            [
+                "da8ab36d1f98e4cc"
+            ]
+        ],
+        "outputLabels": [
+            "user exists",
+            "not user"
+        ]
+    },
+    {
+        "id": "5298959a60afa79b",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "find",
+        "links": [
+            "346e518816416d1d"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 530,
+        "y": 100,
+        "wires": [
+            [
+                "4dd2566d9bcb5db2",
+                "4603e8b0f2c8cea6"
+            ]
+        ]
+    },
+    {
+        "id": "da8ab36d1f98e4cc",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "registration user",
+        "func": "msg.userId = objectid();\nconst hashPassword = await bcrypt.hash(msg.oldpayload.password, 10);\nmsg.userToken = await jwt.sign(\n    { user_id: msg.userId , email: msg.oldpayload.email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = msg.userToken;\nmsg.cookies[\"email_register\"] = msg.oldpayload.email;\n\nmsg.payload = {\n    \"_id\": msg.userId,\n    \"deleted\": false,\n    \"createdAt\": global.get(\"convert_date\"),\n    \"firstname\": \"\",\n    \"lastname\": \"\",\n    \"email\": msg.oldpayload.email,\n    \"password\": hashPassword,\n    \"phone\": \"\",\n    \"company\": \"\"\n}\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            },
+            {
+                "var": "bcrypt",
+                "module": "bcrypt"
+            },
+            {
+                "var": "jwt",
+                "module": "jsonwebtoken"
+            }
+        ],
+        "x": 860,
+        "y": 120,
+        "wires": [
+            [
+                "9e3e23c56d42615c",
+                "7d7d1f2455e5a6ab",
+                "41a23920c378218b"
+            ]
+        ]
+    },
+    {
+        "id": "9b072ee01ff877c7",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "find user",
+        "func": "msg.collection = \"admins\";\n\nmsg.payload = {\n    email: msg.oldpayload.email\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            [
+                "5298959a60afa79b"
+            ]
+        ]
+    },
+    {
+        "id": "7d7d1f2455e5a6ab",
+        "type": "http response",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1010,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9e3e23c56d42615c",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "insert",
+        "links": [
+            "1764f8568a80ddbd"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 990,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14c594f02589ee3e",
+        "type": "http in",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "url": "/register",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "8bb36902470d4712",
+                "75f2b248191fa85d"
+            ]
+        ]
+    },
+    {
+        "id": "d4c122631ab42770",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "name": "",
+        "links": [
+            "1764f8568a80ddbd"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3170,
+        "y": 3860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abf73382d789a218",
+        "type": "inject",
+        "z": "c8b39bad946d8ab6",
+        "g": "81031a41452292e5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 760,
+        "wires": [
+            [
+                "68b716a28a9c06f9"
+            ]
+        ]
+    },
+    {
+        "id": "384f475d0d221b9f",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "g": "81031a41452292e5",
+        "name": "debug 580",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "8bb36902470d4712",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "check",
+        "func": "const regexEmail = /^(([^<>()[\\]\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@(([^<>()[\\]\\.,;:\\s@\\\"]+\\.)+[^<>()[\\]\\.,;:\\s@\\\"]{2,})$/i;\nconst regexPassword = /^(?!.*\\s).{8,}/;\nconst email = msg.payload.email.toLowerCase();\n\nif (!regexEmail.test(email)) {\n    msg.statusCode = 401;\n    msg.payload = {\n        data: \"Email is invalid\",\n        code: 401\n    }\n\n    return [null, msg];\n\n} else if (!regexPassword.test(msg.payload.password)) {\n    msg.statusCode = 401;\n    msg.payload = {\n        data: \"The password is invalid. The value must be at least 8 characters and without whitespaces\",\n        code: 401\n    }\n\n    return [null, msg];\n\n} else {\n    msg.oldpayload = msg.payload;\n\n    return [msg, null];\n}",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "9b072ee01ff877c7",
+                "5b7721a233783a7e"
+            ],
+            [
+                "261e2629f533416d"
+            ]
+        ]
+    },
+    {
+        "id": "261e2629f533416d",
+        "type": "http response",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 410,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2a93e9dfa735553f",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "check ",
+        "func": "const regexEmail = /^(([^<>()[\\]\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@(([^<>()[\\]\\.,;:\\s@\\\"]+\\.)+[^<>()[\\]\\.,;:\\s@\\\"]{2,})$/i;\nconst regexPassword = /^(?!.*\\s).{8,}/;\nconst email = msg.payload.email.toLowerCase().trim();\n\nif (!regexEmail.test(email)) {\n    msg.statusCode = 401;\n    msg.payload = {\n        data: \"Email is invalid\",\n        code: 401\n    }\n\n    return [null, msg];\n\n} else if (!regexPassword.test(msg.payload.password.trim())) {\n    msg.statusCode = 401;\n    msg.payload = {\n        data: \"The password is invalid. The value must be at least 8 characters and without whitespaces\",\n        code: 401\n    }\n\n    return [null, msg];\n    \n} else {\n    msg.collection = \"admins\"\n    msg.oldpayload = msg.payload\n\n    msg.payload = {\n        email: email,\n        deleted: false,\n    }\n\n    return [msg, null];\n}",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 280,
+        "wires": [
+            [
+                "18aae7344f5398ad"
+            ],
+            [
+                "a83002af240aceba"
+            ]
+        ]
+    },
+    {
+        "id": "71b40ed3278e2c78",
+        "type": "http in",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "url": "/login",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "2a93e9dfa735553f"
+            ]
+        ]
+    },
+    {
+        "id": "18aae7344f5398ad",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "find",
+        "links": [
+            "346e518816416d1d"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "30e4826204af376f"
+            ]
+        ]
+    },
+    {
+        "id": "30e4826204af376f",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "check user",
+        "func": "if (msg.payload.length > 0) {\n    const check = await bcrypt.compare(msg.oldpayload.password, msg.payload[0].password);\n\n    if (!check) {\n        msg.statusCode = 401;\n        msg.payload = {\n            data: \"Incorrect email or password\",\n            code: 401\n        }\n        node.warn(\"Password incorrect\");\n        return [null, msg]\n    }\n\n    return [msg, null]\n} else {\n    msg.statusCode = 401;\n    msg.payload = {\n        data: \"Incorrect email or password\",\n        code: 401\n    }\n    node.warn(\"Email not found\");\n    return [null, msg]\n}\n\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jwt",
+                "module": "jsonwebtoken"
+            },
+            {
+                "var": "objectid",
+                "module": "objectid"
+            },
+            {
+                "var": "bcrypt",
+                "module": "bcrypt"
+            }
+        ],
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "df6a8b4915671e93"
+            ],
+            [
+                "1eec7cde8c2ab990"
+            ]
+        ]
+    },
+    {
+        "id": "df6a8b4915671e93",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "jwt token",
+        "func": "msg.collection = \"admins\";\n\nconst token = jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.query = {\n    _id: objectid(msg.payload[0]._id)\n}\n\nmsg.payload = {\n    $set: {\n        token\n    }\n}\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = token;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jwt",
+                "module": "jsonwebtoken"
+            },
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 700,
+        "y": 240,
+        "wires": [
+            [
+                "4a9a9e4de2c39b4e"
+            ]
+        ]
+    },
+    {
+        "id": "1eec7cde8c2ab990",
+        "type": "http response",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9d9afd871166fea9",
+        "type": "http response",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 950,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4a9a9e4de2c39b4e",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "update",
+        "links": [
+            "286431cd31c9fc7a"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 830,
+        "y": 240,
+        "wires": [
+            [
+                "9d9afd871166fea9"
+            ]
+        ]
+    },
+    {
+        "id": "a83002af240aceba",
+        "type": "http response",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 390,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "75f2b248191fa85d",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "debug 581",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5b7721a233783a7e",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "debug 582",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4dd2566d9bcb5db2",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "debug 583",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "41a23920c378218b",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "g": "f8bd16500ff817c8",
+        "name": "debug 584",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ed64e7c903512e12",
+        "type": "inject",
+        "z": "c8b39bad946d8ab6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 2420,
+        "wires": [
+            [
+                "917421c3fb724f90"
+            ]
+        ]
+    },
+    {
+        "id": "399821cd147c819f",
+        "type": "debug",
+        "z": "c8b39bad946d8ab6",
+        "name": "debug 585",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "4a236c65409144c1",
+        "type": "link call",
+        "z": "c8b39bad946d8ab6",
+        "name": "find",
+        "links": [
+            "346e518816416d1d"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 510,
+        "y": 2420,
+        "wires": [
+            [
+                "399821cd147c819f"
+            ]
+        ]
+    },
+    {
+        "id": "917421c3fb724f90",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "name": "function 693",
+        "func": "msg.collection = \"admins\";\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2420,
+        "wires": [
+            [
+                "4a236c65409144c1"
             ]
         ]
     },
